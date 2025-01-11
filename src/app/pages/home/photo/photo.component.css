@@ -12,10 +12,24 @@ div.photo-image {
 
 div.photo-details {
   margin-top: 5px;
+  text-align: center;
 }
 
 div.photo-details p {
   font-style: italic;
+  margin-bottom: 10px;
+}
+
+div.photo-properties {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.property {
+  text-align: center;
+  font-size: 0.9rem;
 }
 
 img {
@@ -36,5 +50,9 @@ img.horizontal {
 @media (max-width: 768px) {
   img.horizontal {
     max-width: 100%;
+  }
+
+  div.photo-properties {
+    gap: 10px;
   }
 }
