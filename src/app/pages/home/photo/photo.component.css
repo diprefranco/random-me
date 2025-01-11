@@ -1,0 +1,40 @@
+.photo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.photo-image {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.photo-details {
+  margin-top: 5px;
+}
+
+div.photo-details p {
+  font-style: italic;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+img.vertical {
+  max-width: 450px;
+  max-height: 650px;
+}
+
+img.horizontal {
+  max-width: 90%;
+}
+
+@media (max-width: 768px) {
+  img.horizontal {
+    max-width: 100%;
+  }
+}
