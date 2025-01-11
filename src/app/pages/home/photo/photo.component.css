@@ -32,6 +32,11 @@ div.photo-properties {
   font-size: 0.9rem;
 }
 
+.property i {
+  margin-right: 5px;
+  color: #888;
+}
+
 img {
   width: 100%;
   border-radius: 5px;
