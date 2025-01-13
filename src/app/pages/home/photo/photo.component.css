@@ -37,6 +37,14 @@ div.photo-properties {
   color: #888;
 }
 
+svg {
+  fill: #888;
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  vertical-align: sub;
+}
+
 img {
   width: 100%;
   border-radius: 5px;
