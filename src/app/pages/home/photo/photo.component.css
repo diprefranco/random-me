@@ -34,7 +34,7 @@ div.photo-properties {
 
 .property i {
   margin-right: 5px;
-  color: #888;
+  color: var(--coloricons);
 }
 
 img {
