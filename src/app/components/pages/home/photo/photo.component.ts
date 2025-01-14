@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
+import { Photo } from '../../../../models/photo.model';
+import { PhotoService } from '../../../../services/photo.service';
 
 @Component({
   selector: 'rdm-photo',
@@ -6,5 +8,12 @@ import { Component } from '@angular/core';
   templateUrl: './photo.component.html',
   styleUrl: './photo.component.css'
 })
-export class PhotoComponent {
+export class PhotoComponent implements OnInit {
+  photo!: Photo;
+
+  private photoService = inject(PhotoService);
+
+  ngOnInit() {
+    this.photo = this.photoService.getRandomPhoto();
+  }
 }
