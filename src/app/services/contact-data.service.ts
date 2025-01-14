@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
   providedIn: 'root'
 })
-export class ResourceService {
+export class ContactDataService {
   private email = 'diprefranco@gmail.com';
 
   getEmail(): string {

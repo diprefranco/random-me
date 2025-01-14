@@ -1,5 +1,5 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { ResourceService } from '../../../services/resource.service';
+import { ContactDataService } from '../../../services/contact-data.service';
 
 @Component({
   selector: 'rdm-footer',
@@ -14,16 +14,16 @@ export class FooterComponent implements OnInit {
   githubUrl!: string;
   stackoverflowUrl!: string;
 
-  private resourceService = inject(ResourceService);
+  private contactDataService = inject(ContactDataService);
 
   ngOnInit() {
     this.init();
   }
 
   private init() {
-    this.emailUrl = this.resourceService.getEmailUrl();
-    this.linkedInUrl = this.resourceService.getLinkedInUrl();
-    this.githubUrl = this.resourceService.getGithubUrl();
-    this.stackoverflowUrl = this.resourceService.getStackoverflowUrl();
+    this.emailUrl = this.contactDataService.getEmailUrl();
+    this.linkedInUrl = this.contactDataService.getLinkedInUrl();
+    this.githubUrl = this.contactDataService.getGithubUrl();
+    this.stackoverflowUrl = this.contactDataService.getStackoverflowUrl();
   }
 }
