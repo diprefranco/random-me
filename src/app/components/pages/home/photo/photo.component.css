@@ -17,7 +17,6 @@ div.photo-details {
 
 div.photo-details p {
   font-style: italic;
-  margin-bottom: 10px;
 }
 
 div.photo-properties {
@@ -25,6 +24,7 @@ div.photo-properties {
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 
 .property {
