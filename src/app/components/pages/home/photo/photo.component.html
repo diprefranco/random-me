@@ -11,8 +11,7 @@
         <i class="fa fa-file"></i>{{photo.fileName}}
       </span>
       <span class="property">
-        <i class="fa fa-calendar-alt"></i>{{photo.date}}
-        <!-- Jan 1, 2025 -->
+        <i class="fa fa-calendar-alt"></i>{{photo.date | date : 'MMM d, y' : 'UTC'}}
       </span>
       <span class="property">
         <i class="fa fa-map-marker-alt"></i>{{photo.location}}

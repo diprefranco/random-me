@@ -6,7 +6,7 @@ export const photoData: Photo[] = [
     orientation: 'horizontal',
     description: 'A farmer showing their plants.',
     fileName: 'kawe-rodrigues.jpg',
-    date: new Date('2025-01-01'),
+    date: new Date(Date.UTC(2025, 0, 1)),
     location: 'Rio de Janeiro',
     photographer: 'John Doe'
   },
@@ -15,7 +15,7 @@ export const photoData: Photo[] = [
     orientation: 'horizontal',
     description: 'A man with half face inside a swimming pool.',
     fileName: 'jalil-saeidi.jpg',
-    date: new Date('2022-05-14'),
+    date: new Date(Date.UTC(2022, 4, 14)),
     location: 'New York',
     photographer: 'Albert Doe'
   },
@@ -24,7 +24,7 @@ export const photoData: Photo[] = [
     orientation: 'vertical',
     description: 'A woman in a temple.',
     fileName: 'polina-kuzovkova.jpg',
-    date: new Date('2019-08-12'),
+    date: new Date(Date.UTC(2019, 7, 12)),
     location: 'India',
     photographer: 'Margaret Doe'
   },
@@ -33,7 +33,7 @@ export const photoData: Photo[] = [
     orientation: 'vertical',
     description: 'A woman smiling kindly.',
     fileName: 'ritul-bhattacharjee.jpg',
-    date: new Date('2023-03-04'),
+    date: new Date(Date.UTC(2023, 2, 4)),
     location: 'India',
     photographer: 'Emily Doe'
   }
