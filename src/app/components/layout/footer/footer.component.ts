@@ -1,5 +1,5 @@
 import { Component, inject, OnInit } from '@angular/core';
-import { ResourceService } from '../../resource.service';
+import { ResourceService } from '../../../services/resource.service';
 
 @Component({
   selector: 'rdm-footer',
