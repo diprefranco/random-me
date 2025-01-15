@@ -1,0 +1,10 @@
+.show-animation,
+.show-animation-scrolling {
+  opacity: 0;
+}
+
+.show-animation.visible,
+.show-animation-scrolling.visible {
+  opacity: 1;
+  transition: 1s ease-in-out;
+}

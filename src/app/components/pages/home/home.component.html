@@ -1,2 +1,2 @@
-<rdm-photo></rdm-photo>
-<rdm-about></rdm-about>
+<rdm-photo class="show-animation" (loadComponent)="photoComponentLoaded = true" [ngClass]="{ 'visible': photoComponentLoaded }"></rdm-photo>
+<rdm-about class="show-animation-scrolling"></rdm-about>

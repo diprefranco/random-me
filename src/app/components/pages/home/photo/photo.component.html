@@ -1,7 +1,7 @@
 @if (photo) {
   <section class="photo">
     <div class="photo-image">
-      <img src="{{photo.src}}" class="{{photo.orientation}}" alt="{{photo.description}}">
+      <img src="{{photo.src}}" class="{{photo.orientation}}" alt="{{photo.description}}" (load)="loadComponentCompleted()" />
     </div>
     <div class="photo-details">
       @if (photo.description) {
