@@ -8,4 +8,5 @@ export interface Photo {
   date?: Date;
   location?: string;
   photographer?: string;
+  photographerUrl?: string;
 }

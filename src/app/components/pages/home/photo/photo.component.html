@@ -25,7 +25,8 @@
         }
         @if (photo.photographer) {
           <span class="property">
-            <i class="fa fa-camera"></i>{{photo.photographer}}
+            @if (photo.photographerUrl) { <a href="{{photo.photographerUrl}}" target="_blank"><i class="fa fa-camera"></i>{{photo.photographer}}</a> }
+            @else { <i class="fa fa-camera"></i>{{photo.photographer}} }
           </span>
         }
       </div>

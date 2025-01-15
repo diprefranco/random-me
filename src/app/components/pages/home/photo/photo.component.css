@@ -27,7 +27,8 @@ div.photo-properties {
   margin-top: 10px;
 }
 
-.property {
+.property,
+.property a {
   text-align: center;
   font-size: 0.9rem;
 }
@@ -35,6 +36,17 @@ div.photo-properties {
 .property i {
   margin-right: 5px;
   color: var(--coloricons);
+}
+
+.property a {
+  font-weight: normal;
+  color: var(--colorsecondaryfooter);
+}
+
+.property a:hover,
+.property a:hover i {
+  color: var(--colorsecondary);
+  transition: var(--transition);
 }
 
 div.photo-link {
