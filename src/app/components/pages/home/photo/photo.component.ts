@@ -13,6 +13,7 @@ import { NoPhotoComponent } from './no-photo/no-photo.component';
 export class PhotoComponent implements OnInit {
   @Output() loadComponent = new EventEmitter<boolean>();
   photo!: Photo;
+  imgLoaded = false;
 
   private photoService = inject(PhotoService);
 
