@@ -30,14 +30,16 @@
   flex-wrap: wrap;
   gap: 70px;
   flex-grow: 1;
+  text-align: center;
 }
 
 .link-group ul {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
-.link-group ul li {
+.link-group ul li:not(:last-child) {
   margin-bottom: 10px;
 }
 
