@@ -6,9 +6,7 @@ header {
   height: 80px;
 }
 
-svg {
-  fill: var(--colorcodekeyword);
-  width: var(--logowidth);
+img.logo {
   height: var(--logoheight);
 }
 

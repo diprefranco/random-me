@@ -20,9 +20,7 @@
   margin-left: 50px;
 }
 
-.footer-icon svg {
-  fill: var(--colorcodekeyword);
-  width: var(--logowidth);
+.footer-icon img.logo {
   height: var(--logoheight);
 }
 
