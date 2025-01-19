@@ -1,0 +1,41 @@
+@if (photo) {
+  <section class="photo">
+    <div class="photo-image">
+      <img src="{{photo.src}}" alt="{{photo.description}}" class="{{photo.orientation}}" [class.not-loaded]="!imgLoaded" (load)="imgLoaded = true; loadComponentCompleted();" />
+    </div>
+    <div class="photo-details">
+      @if (photo.description) {
+        <p>
+          {{photo.description}}
+        </p>
+      }
+      <div class="photo-properties">
+        <span class="property">
+          <i class="fa fa-file"></i>{{photo.fileName}}
+        </span>
+        @if (photo.date) {
+          <span class="property">
+            <i class="fa fa-calendar-alt"></i>{{photo.date | date : 'MMM d, y' : 'UTC'}}
+          </span>
+        }
+        @if (photo.location) {
+          <span class="property">
+            <i class="fa fa-map-marker-alt"></i>{{photo.location}}
+          </span>
+        }
+        @if (photo.photographer) {
+          <span class="property">
+            @if (photo.photographerUrl) { <a href="{{photo.photographerUrl}}" target="_blank"><i class="fa fa-camera"></i>{{photo.photographer}}</a> }
+            @else { <i class="fa fa-camera"></i>{{photo.photographer}} }
+          </span>
+        }
+      </div>
+    </div>
+    <div class="photo-link">
+      <a href="./">See other photo</a>
+    </div>
+  </section>
+}
+@else {
+  <rdm-no-photo></rdm-no-photo>
+}

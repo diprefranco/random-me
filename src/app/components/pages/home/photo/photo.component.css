@@ -1,0 +1,84 @@
+.photo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+div.photo-image {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+div.photo-details {
+  margin-top: 5px;
+  text-align: center;
+}
+
+div.photo-details p {
+  font-style: italic;
+}
+
+div.photo-properties {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.property,
+.property a {
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.property i {
+  margin-right: 5px;
+  color: var(--coloricons);
+}
+
+.property a {
+  font-weight: normal;
+  color: var(--colorsecondaryfooter);
+}
+
+.property a:hover,
+.property a:hover i {
+  color: var(--colorsecondary);
+  transition: var(--transition);
+}
+
+div.photo-link {
+  margin-top: 30px;
+  text-align: center;
+}
+
+img {
+  width: 100%;
+  border-radius: 5px;
+  object-fit: contain;
+}
+
+img.vertical {
+  max-width: 450px;
+  max-height: 650px;
+}
+
+img.horizontal {
+  max-width: 90%;
+}
+
+img.not-loaded {
+  margin-top: 650px;
+}
+
+@media (max-width: 768px) {
+  img.horizontal {
+    max-width: 100%;
+  }
+
+  div.photo-properties {
+    gap: 15px;
+  }
+}
