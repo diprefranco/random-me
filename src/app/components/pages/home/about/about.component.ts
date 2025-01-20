@@ -9,12 +9,12 @@ import { ResourceService } from '../../../../services/resource.service';
 })
 export class AboutComponent implements OnInit {
   randomRoutineUrl!: string;
-  templateUrl!: string;
+  projectUrl!: string;
 
   private resourceService = inject(ResourceService);
 
   ngOnInit() {
     this.randomRoutineUrl = this.resourceService.getRandomRoutineUrl();
-    this.templateUrl = this.resourceService.getTemplateUrl();
+    this.projectUrl = this.resourceService.getProjectUrl();
   }
 }
