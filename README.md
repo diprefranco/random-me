@@ -1,5 +1,5 @@
 # Random Me
-Random Me is a fun, interactive single-page web application that displays a random photo of me every time you visit or refresh the page. The app is simple, easy to use, and perfect for sharing spontaneous moments with friends and family. Enjoy exploring Random Me and discovering new memories with every refresh!
+Random Me is a fun, interactive single-page web application that displays a random photo of me every time you visit or refresh the page. The app is simple, easy to use, and perfect for sharing spontaneous moments with friends and family. Enjoy discovering new memories with every refresh!
 
 ## Demo
 https://diprefranco.github.io/random-me/
@@ -17,14 +17,19 @@ This project was built with [Angular CLI](https://github.com/angular/angular-cli
 You can build your own random moments using this project.
 
 ### Run The App
-1. Clone this repository.
-2. Install the necessary dependencies:
+Clone this repository.
+
+```bash
+git clone https://github.com/diprefranco/random-me.git
+```
+
+Install the necessary dependencies:
 
 ```bash
 npm install
 ```
 
-3. Start the application:
+Start the application:
 
 ```bash
 npm start
