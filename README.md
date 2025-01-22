@@ -17,36 +17,36 @@ This project was built with [Angular CLI](https://github.com/angular/angular-cli
 You can build your own random moments using this project.
 
 ### Run The App
-First of all, clone this repository.
-
-Install the necessary dependencies with:
+1. Clone this repository.
+2. Install the necessary dependencies:
 
 ```bash
 npm install
 ```
 
-Start the application with:
+3. Start the application:
 
 ```bash
 npm start
 ```
 
 ### Photos
-The app picks photos randomly from the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array. This array has all the information about the photos you want to show.<br />
-The photo files can be placed in the `public` folder inside the app, or in any other public url. Just remember to set the `src` property correctly on every photo in the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array.<br />
-The photo dates are specified in UTC format to ensure always displaying the same date regardless of the user's time zone.
+The app randomly selects photos from the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array. This array contains all the information about the photos you want to display.<br />
+- Place your photo files in the `public` folder inside the app or host them on any public URL.
+- Ensure the `src` property in the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array points to the correct file location.
+- Dates are specified in UTC format to guarantee consistent display regardless of the user's time zone.
 
 ### Personal Link Resources
-Inside the `src/app/services` there are some services with personal link resources. Be sure to put your owns there.
+In the `src/app/services` folder, you’ll find services for managing personal link resources. Replace these with your own links and details as needed.
 
 ## Acknowledgments
 I want to thank the photographers for the amazing photos you are seeing.
-- [Kawê Rodrigues](https://unsplash.com/@kawerodriguess): an older man is walking through a garden. History of Casa Suzuki.
-- [Jalil Saeidi](https://unsplash.com/@jalil_sd): drown in memories. A man is floating in a pool of water.
-- [Polina Kuzovkova](https://unsplash.com/@p_kuzovkova): a woman in a yellow and brown sari walking in front of a building.
+- [Kawê Rodrigues](https://unsplash.com/@kawerodriguess): An older man is walking through a garden. History of Casa Suzuki.
+- [Jalil Saeidi](https://unsplash.com/@jalil_sd): Drown in memories. A man floating in a pool of water.
+- [Polina Kuzovkova](https://unsplash.com/@p_kuzovkova): A woman in a yellow and brown sari walking in front of a building.
 - [Ritul Bhattacharjee](https://unsplash.com/@rd_ritul7): Rajasthani women in their regular Rajasthani attire.
 
-The photos were taken from [Unsplash](https://unsplash.com/).
+All photos were taken from [Unsplash](https://unsplash.com/).
 
 ## Author
 GitHub: [Franco Dipre](https://github.com/diprefranco/)
