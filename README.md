@@ -10,6 +10,9 @@ https://diprefranco.github.io/random-me/
 The app was built using [Angular](https://angular.dev/).<br />
 The entire site is **responsive** and adjusts to different screen sizes.
 
+## Version Information
+This project was built with [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+
 ## Build Your Own Random Me
 You can build your own random moments using this project.
 
@@ -35,9 +38,6 @@ The photo dates are specified in UTC format to ensure always displaying the same
 
 ### Personal Link Resources
 Inside the `src/app/services` there are some services with personal link resources. Be sure to put your owns there.
-
-## Version Information
-This project was built with [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
 ## Acknowledgments
 I want to thank the photographers for the amazing photos you are seeing.
