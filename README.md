@@ -17,7 +17,7 @@ This project was built with [Angular CLI](https://github.com/angular/angular-cli
 You can build your own random moments using this project.
 
 ### Run The App
-Clone this repository.
+Clone this repository:
 
 ```bash
 git clone https://github.com/diprefranco/random-me.git
