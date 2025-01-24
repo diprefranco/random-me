@@ -15,7 +15,7 @@
         </span>
         @if (photo.date) {
           <span class="property">
-            <i class="fa fa-calendar-alt"></i>{{photo.date | date : 'MMM d, y' : 'UTC'}}
+            <i class="fa fa-calendar-alt"></i>{{formatPhotoDate()}}
           </span>
         }
         @if (photo.location) {

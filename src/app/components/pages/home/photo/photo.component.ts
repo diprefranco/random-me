@@ -1,12 +1,13 @@
 import { Component, EventEmitter, inject, OnInit, Output } from '@angular/core';
-import { Photo } from '../../../../models/photo.model';
+import { DateParts, Photo } from '../../../../models/photo.model';
 import { PhotoService } from '../../../../services/photo.service';
 import { DatePipe } from '@angular/common';
 import { NoPhotoComponent } from './no-photo/no-photo.component';
 
 @Component({
   selector: 'rdm-photo',
-  imports: [DatePipe, NoPhotoComponent],
+  imports: [NoPhotoComponent],
+  providers: [DatePipe],
   templateUrl: './photo.component.html',
   styleUrl: './photo.component.css'
 })
@@ -16,6 +17,7 @@ export class PhotoComponent implements OnInit {
   imgLoaded = false;
 
   private photoService = inject(PhotoService);
+  private datePipe = inject(DatePipe);
 
   ngOnInit() {
     this.photo = this.photoService.getRandomPhoto();
@@ -28,5 +30,20 @@ export class PhotoComponent implements OnInit {
 
   loadComponentCompleted() {
     this.loadComponent.emit(true);
+  }
+
+  formatPhotoDate(): string {
+    switch (this.photo.dateComposedBy) {
+      case null:
+      case undefined:
+      case DateParts.DayMonthYear:
+        return this.datePipe.transform(this.photo.date, 'MMM d, y', 'UTC') || '';
+      case DateParts.MonthYear:
+        return this.datePipe.transform(this.photo.date, 'MMM y', 'UTC') || '';
+      case DateParts.Year:
+        return this.datePipe.transform(this.photo.date, 'y', 'UTC') || '';
+      default:
+        return '';
+    }
   }
 }
