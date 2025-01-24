@@ -1,59 +1,60 @@
-# RandomMe
+# Random Me
+Random Me is a fun, interactive single-page web application that displays a random photo of me every time you visit or refresh the page. The app is simple, easy to use, and perfect for sharing spontaneous moments with friends and family. Enjoy discovering new memories with every refresh!
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
+## Demo
+https://diprefranco.github.io/random-me/
 
-## Development server
+![Website Screenshot](https://github.com/diprefranco/random-me/blob/main/public/assets/images/website-screenshot.png)
 
-To start a local development server, run:
+## App Overview
+The app was built using [Angular](https://angular.dev/).<br />
+The entire site is **responsive** and adjusts to different screen sizes.
 
-```bash
-ng serve
-```
+## Version Information
+This project was built with [Angular CLI](https://github.com/angular/angular-cli) version 19.0.7.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## Build Your Own Random Me
+You can build your own random moments using this project.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+### Run The App
+Clone this repository:
 
 ```bash
-ng generate --help
+git clone https://github.com/diprefranco/random-me.git
 ```
 
-## Building
-
-To build the project run:
+Install the necessary dependencies:
 
 ```bash
-ng build
+npm install
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Start the application:
 
 ```bash
-ng test
+npm start
 ```
 
-## Running end-to-end tests
+### Photos
+The app randomly selects photos from the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array. This array contains all the information about the photos you want to display.<br />
+- Place your photo files in the `public` folder inside the app or host them on any public URL.
+- Ensure the `src` property in the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array points to the correct file location.
+- Dates are specified in UTC format to guarantee consistent display regardless of the user's time zone.
 
-For end-to-end (e2e) testing, run:
+### Personal Link Resources
+In the `src/app/services` folder, you’ll find services for managing personal link resources. Replace these with your own links and details as needed.
 
-```bash
-ng e2e
-```
+## Acknowledgments
+I want to thank the photographers for the amazing photos you are seeing.
+- [Kawê Rodrigues](https://unsplash.com/@kawerodriguess): An older man is walking through a garden. History of Casa Suzuki.
+- [Jalil Saeidi](https://unsplash.com/@jalil_sd): Drown in memories. A man floating in a pool of water.
+- [Polina Kuzovkova](https://unsplash.com/@p_kuzovkova): A woman in a yellow and brown sari walking in front of a building.
+- [Ritul Bhattacharjee](https://unsplash.com/@rd_ritul7): Rajasthani women in their regular Rajasthani attire.
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+All photos were taken from [Unsplash](https://unsplash.com/).
 
-## Additional Resources
+## Author
+GitHub: [Franco Dipre](https://github.com/diprefranco/)
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## License
+This project is licensed under the [MIT License](LICENSE).

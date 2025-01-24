@@ -9,11 +9,7 @@ export class ResourceService {
     return 'https://github.com/diprefranco/random-me';
   }
 
-  getTemplateUrl(): string {
-    return 'https://github.com/diprefranco/random-me/tree/main-template';
-  }
-
   getRandomRoutineUrl(): string {
-    return 'https://github.com/diprefranco/random-me/blob/main-layout/src/app/services/photo.service.ts';
+    return 'https://github.com/diprefranco/random-me/blob/main/src/app/services/photo.service.ts';
   }
 }
