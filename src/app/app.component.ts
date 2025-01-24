@@ -37,7 +37,7 @@ export class AppComponent implements OnInit {
                                                                                                                          
   ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗  
   ║                      The site code you're exploring might be minimized.                                           ║  
-  ║                      Check it out here: ${projectUrl}                                  ║  
+  ║                      Check it out here: ${projectUrl}                   ║  
   ║                                                                                                                   ║  
   ║                                                © ${year} Franco Dipre                                                ║  
   ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝  

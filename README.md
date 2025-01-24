@@ -4,7 +4,7 @@ Random Me is a fun, interactive single-page web application that displays a rand
 ## Demo
 https://diprefranco.github.io/random-me/
 
-![Website Screenshot](https://github.com/diprefranco/random-me/blob/main/public/assets/images/website-screenshot.png)
+![Website Screenshot](https://github.com/diprefranco/random-me/blob/main-v1.0/public/assets/images/website-screenshot.png)
 
 ## App Overview
 The app was built using [Angular](https://angular.dev/).<br />
@@ -36,9 +36,9 @@ npm start
 ```
 
 ### Photos
-The app randomly selects photos from the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array. This array contains all the information about the photos you want to display.<br />
+The app randomly selects photos from the [`photoData`](https://github.com/diprefranco/random-me/blob/main-v1.0/src/app/data/photo.data.ts) array. This array contains all the information about the photos you want to display.<br />
 - Place your photo files in the `public` folder inside the app or host them on any public URL.
-- Ensure the `src` property in the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array points to the correct file location.
+- Ensure the `src` property in the [`photoData`](https://github.com/diprefranco/random-me/blob/main-v1.0/src/app/data/photo.data.ts) array points to the correct file location.
 - Dates are specified in UTC format to guarantee consistent display regardless of the user's time zone.
 
 ### Personal Link Resources
