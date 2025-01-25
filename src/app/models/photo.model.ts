@@ -7,10 +7,10 @@ export enum DateParts {
 }
 
 export interface Photo {
+  fileName: string;
   src: string;
   orientation: Orientation;
   description?: string;
-  fileName: string;
   date?: Date;
   dateComposedBy?: DateParts;
   location?: string;
