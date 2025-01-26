@@ -50,10 +50,10 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Casilda
   },
   {
-    fileName: 'in-my-first-birthday.jpg',
+    fileName: 'my-first-birthday.jpg',
     src: `${baseUrl}/childhood/IMG_20250121_160551310_HDR.jpg`,
     orientation: 'vertical',
-    description: 'In my first birthday',
+    description: 'My first birthday',
     date: new Date(Date.UTC(1990, 5, 25)),
     location: Locations.Argentina.Casilda
   },
@@ -208,7 +208,7 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Casilda
   },
   {
-    fileName: 'turtle-manola-at-kindergarten.jpg',
+    fileName: 'turtle-manola-kindergarten.jpg',
     src: `${baseUrl}/childhood/IMG_20250121_164101990_HDR.jpg`,
     orientation: 'vertical',
     description: 'Me with my turtle Manola at the kindergarten',
@@ -225,7 +225,7 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Carilo
   },
   {
-    fileName: 'manu-in-swimming-pool-1.jpg',
+    fileName: 'manu-swimming-pool-1.jpg',
     src: `${baseUrl}/childhood/IMG_20250121_171515598_HDR.jpg`,
     orientation: 'vertical',
     description: 'With my brother Manuel',
@@ -234,7 +234,7 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Casilda
   },
   {
-    fileName: 'manu-in-swimming-pool-2.jpg',
+    fileName: 'manu-swimming-pool-2.jpg',
     src: `${baseUrl}/childhood/IMG_20250121_171618358_HDR.jpg`,
     orientation: 'horizontal',
     description: '"Dude, stop! You\'re going to drown me!"',
@@ -270,7 +270,7 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.CarlosPaz
   },
   {
-    fileName: 'everyone-having-good-time-cordoba.jpg',
+    fileName: 'everyone-ok-at-cordoba.jpg',
     src: `${baseUrl}/childhood/IMG_20250121_172558822_HDR.jpg`,
     orientation: 'horizontal',
     description: '"Is everyone having a good time?"',
@@ -331,7 +331,7 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Rosario
   },
   {
-    fileName: 'got-hair-back-Mom.jpg',
+    fileName: 'got-hair-back-mom.jpg',
     src: `${baseUrl}/family/IMG_20221022_231331740_HDR.jpg`,
     orientation: 'vertical',
     description: 'Finally got my hair back, thanks Mom!',
