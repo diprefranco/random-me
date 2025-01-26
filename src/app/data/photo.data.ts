@@ -214,5 +214,86 @@ export const photoData: Photo[] = [
     description: 'Me with my turtle Manola at the kindergarten',
     date: new Date(Date.UTC(1993, 2, 15)),
     location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'family-holiday-beach-carilo.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_171412051_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'With my family on holiday',
+    date: new Date(Date.UTC(2003, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Carilo
+  },
+  {
+    fileName: 'manu-in-swimming-pool-1.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_171515598_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'With my brother Manuel',
+    date: new Date(Date.UTC(2003, 1, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'manu-in-swimming-pool-2.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_171618358_HDR.jpg`,
+    orientation: 'horizontal',
+    description: '"Dude, stop! You\'re going to drown me!"',
+    date: new Date(Date.UTC(2003, 1, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'mdq-gang-of-four.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_172026845_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'The MDQ Gang of Four',
+    date: new Date(Date.UTC(1999, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.MDQ
+  },
+  {
+    fileName: 'mdq-two-little-pals.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_172141756_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'Two little pals on holiday',
+    date: new Date(Date.UTC(1999, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.MDQ
+  },
+  {
+    fileName: 'waterfall-family-cordoba.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_172256391_HDR.jpg`,
+    orientation: 'horizontal',
+    description: '"Mom, it\'s just a picture, relax..."',
+    date: new Date(Date.UTC(2000, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.CarlosPaz
+  },
+  {
+    fileName: 'everyone-having-good-time-cordoba.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_172558822_HDR.jpg`,
+    orientation: 'horizontal',
+    description: '"Is everyone having a good time?"',
+    date: new Date(Date.UTC(2000, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.CarlosPaz
+  },
+  {
+    fileName: 'patan-uncomfortable.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_172810501_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'My dog Patan, clearly not a photo fan',
+    date: new Date(Date.UTC(2000, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'patan-angry.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_173017202_HDR.jpg`,
+    orientation: 'vertical',
+    description: '"Dude chill, it\'s just a picture!"',
+    date: new Date(Date.UTC(2000, 5, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Casilda
   }
 ];
