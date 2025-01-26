@@ -295,5 +295,91 @@ export const photoData: Photo[] = [
     date: new Date(Date.UTC(2000, 5, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.Casilda
+  },
+
+  //----------- family -----------//
+  {
+    fileName: 'family-at-23-28.jpg',
+    src: `${baseUrl}/family/458272694_8030711793713572_761629738823366545_n.jpg`,
+    orientation: 'horizontal',
+    description: 'My family at 23:28',
+    date: new Date(Date.UTC(2012, 7, 4)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'kathleen-visiting.jpg',
+    src: `${baseUrl}/family/464299638_10234701156696218_1168093251591687398_n.jpg`,
+    orientation: 'horizontal',
+    description: 'With my Aussie cousin Kathleen during her visit',
+    date: new Date(Date.UTC(2011, 6, 31)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'brother-and-me-school-days.jpg',
+    src: `${baseUrl}/family/464948882_10236055258627657_8216967442306505411_n.jpg`,
+    orientation: 'vertical',
+    description: 'With my brother back in our school days',
+    // missing: date
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'piano-lesson-with-parents.jpg',
+    src: `${baseUrl}/family/IMG_20181212_201439337.jpg`,
+    orientation: 'horizontal',
+    description: 'After my piano lesson, with my parents',
+    date: new Date(Date.UTC(2018, 11, 12)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'got-hair-back-Mom.jpg',
+    src: `${baseUrl}/family/IMG_20221022_231331740_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'Finally got my hair back, thanks Mom!',
+    date: new Date(Date.UTC(2022, 9, 22)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'dad-me-uni-prom.jpg',
+    src: `${baseUrl}/family/IMG_20250121_164837665_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'With my dad at my uni prom party',
+    // missing: date
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'cristo-redentor-family.jpg',
+    src: `${baseUrl}/family/IMG_20250121_165110169_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'At Cristo Redentor with the fam in Rio',
+    date: new Date(Date.UTC(2009, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Brazil.Rio
+  },
+  {
+    fileName: 'family-beach-rio.jpg',
+    src: `${baseUrl}/family/IMG_20250121_165153919_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'With my family at the beach in Rio',
+    date: new Date(Date.UTC(2009, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Brazil.Rio
+  },
+  {
+    fileName: 'beach-safe-team.jpg',
+    src: `${baseUrl}/family/IMG_20250121_165243439_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'The beach was in good hands that day',
+    date: new Date(Date.UTC(2009, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Brazil.Buzios
+  },
+  {
+    fileName: 'dad-me-relax-buzios.jpg',
+    src: `${baseUrl}/family/IMG_20250121_165436467_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Taking it easy with Dad at the beach',
+    date: new Date(Date.UTC(2009, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Brazil.Buzios
   }
 ];
