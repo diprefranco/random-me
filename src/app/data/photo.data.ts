@@ -484,5 +484,120 @@ export const photoData: Photo[] = [
     description: 'At 4,350 m.a.s.l. on Cerro Penitentes\'s summit',
     date: new Date(Date.UTC(2022, 0, 19)),
     location: Locations.Argentina.Penitentes
+  },
+
+  //----------- music -----------//
+  {
+    fileName: 'gacela-after-show.jpg',
+    src: `${baseUrl}/music/bands/gacela/463024149_9668367793192785_6941176996549501011_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Gacela band, after the show',
+    date: new Date(Date.UTC(2012, 9, 28)),
+    location: Locations.Argentina.Colon
+  },
+  {
+    fileName: 'gacela-trying-things.jpg',
+    src: `${baseUrl}/music/bands/gacela/465060533_10235251854983983_2695746888049226135_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Gacela power glam trio',
+    date: new Date(Date.UTC(2012, 11, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'gacela-nico-birthday.jpg',
+    src: `${baseUrl}/music/bands/gacela/465147383_10235253067294290_9106692767440672547_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Gacela rocking at the guitarist\'s birthday party',
+    date: new Date(Date.UTC(2013, 2, 12)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'el-gato-live-efecto-tequila.jpg',
+    src: `${baseUrl}/music/bands/gato-de-strodinger/462124117_8443157039072477_1758295598529245119_n.jpg`,
+    orientation: 'horizontal',
+    description: 'El Gato de Strodinger live at Efecto Tequila\'s Studios',
+    date: new Date(Date.UTC(2012, 9, 29)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'Jamming-with-el-gato.jpg',
+    src: `${baseUrl}/music/bands/gato-de-strodinger/465030269_10235691398122582_6761139447243853546_n.jpg`,
+    orientation: 'vertical',
+    description: 'Jamming with El Gato de Strodinger',
+    date: new Date(Date.UTC(2013, 4, 8)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'el-gato-drummer.jpg',
+    src: `${baseUrl}/music/bands/gato-de-strodinger/465042422_10235691399442615_396362529821482665_n.jpg`,
+    orientation: 'vertical',
+    description: 'Gato de Strodinger\'s drummer at a regular jam session',
+    date: new Date(Date.UTC(2013, 4, 8)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'el-gato-garage-2013.jpg',
+    src: `${baseUrl}/music/bands/gato-de-strodinger/465585501_10235691404322737_4073119602024133594_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Gato de Strodinger\'s playing in the garage back in 2013',
+    date: new Date(Date.UTC(2013, 4, 8)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'sal-de-la-huella-puegliese-2015.jpg',
+    src: `${baseUrl}/music/bands/sal-de-la-huella/463756663_8372369919511784_7094779197241019996_n.jpg`,
+    orientation: 'vertical',
+    description: 'Sal de la Huella live at Pugliese, 2015',
+    date: new Date(Date.UTC(2015, 4, 17)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'sal-de-la-huella-charlie-2014.jpg',
+    src: `${baseUrl}/music/bands/sal-de-la-huella/463925685_27313711314910996_4688003728001945229_n.jpg`,
+    orientation: 'vertical',
+    description: 'Sal de la Huella live at Charlie Brown, 2014',
+    date: new Date(Date.UTC(2014, 4, 8)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'sal-de-la-huella-charlie-2015.jpg',
+    src: `${baseUrl}/music/bands/sal-de-la-huella/464487333_27387824987499628_6166780699165050016_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Sal de la Huella live at Charlie Brown, 2015',
+    date: new Date(Date.UTC(2015, 5, 30)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'sal-de-la-huella-charlie-2015-2.jpg',
+    src: `${baseUrl}/music/bands/sal-de-la-huella/464583629_27387825350832925_1684015672988980556_n.jpg`,
+    orientation: 'vertical',
+    description: 'Sal de la Huella live at Charlie Brown, 2015',
+    date: new Date(Date.UTC(2015, 5, 30)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'sal-de-la-huella-canteros.jpg',
+    src: `${baseUrl}/music/bands/sal-de-la-huella/466044607_10234932171429096_1989847782995078513_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Sal de la Huella live at Canteros del Lisandro de la Torre, Casilda',
+    date: new Date(Date.UTC(2014, 3, 12)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'sal-de-la-huella-preparing.jpg',
+    src: `${baseUrl}/music/bands/sal-de-la-huella/466097211_10235446880899509_5452639489997943944_n.jpg`,
+    orientation: 'vertical',
+    description: 'Sal de la Huella preparing for the show',
+    date: new Date(Date.UTC(2014, 8, 30)),
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'sal-de-la-huella-pre-spring-2015.jpg',
+    src: `${baseUrl}/music/bands/sal-de-la-huella/466588575_10234754020812239_5461487149594783941_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Sal de la Huella after playing at the Pre-Spring Band Contest 2015',
+    date: new Date(Date.UTC(2015, 6, 1)),
+    location: Locations.Argentina.Rosario
   }
 ];
