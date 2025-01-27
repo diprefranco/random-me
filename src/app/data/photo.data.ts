@@ -1,5 +1,6 @@
 import { DateParts, Photo } from '../models/photo.model';
 import { Locations } from './locations.data';
+import { Photographers } from './photographers.data';
 
 const baseUrl = 'https://diprefranco.github.io/random-me-photos/photos';
 
@@ -599,5 +600,152 @@ export const photoData: Photo[] = [
     description: 'Sal de la Huella after playing at the Pre-Spring Band Contest 2015',
     date: new Date(Date.UTC(2015, 6, 1)),
     location: Locations.Argentina.Rosario
+  },
+
+  //----------- school -----------//
+  {
+    fileName: 'kindergarten-mise.jpg',
+    src: `${baseUrl}/school/kindergarten/463333867_10233570662705721_4725719448651518375_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Kindergarten at Nuestra Señora de la Misericordia',
+    date: new Date(Date.UTC(1994, 2, 1)),
+    dateComposedBy: DateParts.Year,
+    location: Locations.Argentina.Casilda
+  },
+
+  //----------- travels -----------//
+  {
+    fileName: 'memories-reflective-look-italy.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/CBDC6719-0DCD-4992-A603-788BD9D6541D.JPG`,
+    orientation: 'vertical',
+    description: 'Memories of a reflective look in Italy',
+    date: new Date(Date.UTC(2023, 8, 25)),
+    location: Locations.Italy.Country,
+    photographer: Photographers.JulianGuardia.Name,
+    photographerUrl: Photographers.JulianGuardia.Url
+  },
+  {
+    fileName: 'dude-forgot-bread-italy.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/D92A81EB-EE92-4E89-97B6-BDA8061C6AA9.JPG`,
+    orientation: 'vertical',
+    description: '"Oh man, I forgot to buy the bread"',
+    date: new Date(Date.UTC(2023, 8, 25)),
+    location: Locations.Italy.Country,
+    photographer: Photographers.JulianGuardia.Name,
+    photographerUrl: Photographers.JulianGuardia.Url
+  },
+  {
+    fileName: 'running-fields-italy.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/DSC_3637.JPG`,
+    orientation: 'horizontal',
+    description: 'Running in the fields',
+    date: new Date(Date.UTC(2023, 8, 27)),
+    location: Locations.Italy.Country,
+    photographer: Photographers.JuanGiovacchini.Name,
+    photographerUrl: Photographers.JuanGiovacchini.Url
+  },
+  {
+    fileName: 'running-fields-italy-2.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/DSC_3638.JPG`,
+    orientation: 'horizontal',
+    description: 'Running in the fields',
+    date: new Date(Date.UTC(2023, 8, 27)),
+    location: Locations.Italy.Country,
+    photographer: Photographers.JuanGiovacchini.Name,
+    photographerUrl: Photographers.JuanGiovacchini.Url
+  },
+  {
+    fileName: 'man-thinking-future-italy.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/F077F2BA-4F00-465F-B42C-386EA3AC4A6F.JPG`,
+    orientation: 'vertical',
+    description: 'A man thinking about the future',
+    date: new Date(Date.UTC(2023, 8, 25)),
+    location: Locations.Italy.Country,
+    photographer: Photographers.JulianGuardia.Name,
+    photographerUrl: Photographers.JulianGuardia.Url
+  },
+  {
+    fileName: 'man-relaxing-thinking-future-italy.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/FDA43F10-BF91-46E7-A53B-6CDB66642170.JPG`,
+    orientation: 'vertical',
+    description: 'A man relaxing after thinking about the future',
+    date: new Date(Date.UTC(2023, 8, 25)),
+    location: Locations.Italy.Country,
+    photographer: Photographers.JulianGuardia.Name,
+    photographerUrl: Photographers.JulianGuardia.Url
+  },
+  {
+    fileName: 'emif-double-jar-montjuic.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_2833.JPG`,
+    orientation: 'vertical',
+    description: 'With Emiliano in Montjuïc Castle',
+    date: new Date(Date.UTC(2023, 9, 14)),
+    location: Locations.Spain.Barcelona
+  },
+  {
+    fileName: 'thinking-build-website-italy.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20230723_155322390_HDR.jpg`,
+    orientation: 'horizontal',
+    description: '"Maybe I can build a website to show this photo"',
+    date: new Date(Date.UTC(2023, 6, 23)),
+    location: Locations.Italy.Country
+  },
+  {
+    fileName: 'juli-castel-sant-angelo.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20230806_144516364_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'With Juli on the roof of Castel Sant\'Angelo',
+    date: new Date(Date.UTC(2023, 7, 6)),
+    location: Locations.Italy.Rome
+  },
+  {
+    fileName: 'alcazaba-almeria-spain-2023.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20231108_154352334_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Me at the Alcazaba of Almería',
+    date: new Date(Date.UTC(2023, 10, 8)),
+    location: Locations.Spain.Almeria
+  },
+  {
+    fileName: 'malaga-behind-2023.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20231113_115945946_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'With Málaga behind me',
+    date: new Date(Date.UTC(2023, 10, 13)),
+    location: Locations.Spain.Malaga
+  },
+  {
+    fileName: 'autumn-granada-2023.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20231124_173524069_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Autumn in Granada',
+    date: new Date(Date.UTC(2023, 10, 24)),
+    location: Locations.Spain.Granada
+  },
+  {
+    fileName: 'monte-san-anton-2023.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20240403_180016096_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'On top of Monte San Antón',
+    date: new Date(Date.UTC(2024, 3, 3)),
+    location: Locations.Spain.Malaga
+  },
+  {
+    fileName: 'ronda-behind-2023.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20240501_152957209_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'With Ronda behind me',
+    date: new Date(Date.UTC(2024, 4, 1)),
+    location: Locations.Spain.Ronda
+  },
+  {
+    fileName: 'italy-with-the-guys.jpg',
+    src: `${baseUrl}/travels/europe/italy-spain-2023/italy-with-the-guys.jpg`,
+    orientation: 'horizontal',
+    description: 'With Santiago and Julian in Italy',
+    date: new Date(Date.UTC(2023, 6, 17)),
+    location: Locations.Italy.Country,
+    photographer: Photographers.JulianGuardia.Name,
+    photographerUrl: Photographers.JulianGuardia.Url
   }
 ];

@@ -13,5 +13,16 @@ export const Locations = {
   Brazil: {
     Buzios: 'Armação dos Búzios, Brazil',
     Rio: 'Rio de Janeiro, Brazil'
+  },
+  Italy: {
+    Country: 'Italy',
+    Rome: 'Rome, Italy'
+  },
+  Spain: {
+    Barcelona: 'Barcelona, Spain',
+    Almeria: 'Almería, Spain',
+    Malaga: 'Málaga, Spain',
+    Granada: 'Granada, Spain',
+    Ronda: 'Ronda, Spain'
   }
 };
