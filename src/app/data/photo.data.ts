@@ -381,5 +381,58 @@ export const photoData: Photo[] = [
     date: new Date(Date.UTC(2009, 0, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Brazil.Buzios
+  },
+
+  //----------- friends -----------//
+  {
+    fileName: 'emif-gargi-me-wedding.jpg',
+    src: `${baseUrl}/friends/466279496_10231242577585181_8120809527241641051_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Just three handsome dudes at a wedding',
+    date: new Date(Date.UTC(2016, 4, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Funes
+  },
+
+  //----------- kayak -----------//
+  {
+    fileName: 'kayak-first-photo.jpg',
+    src: `${baseUrl}/kayak/IMG_20200208_171824738.jpg`,
+    orientation: 'horizontal',
+    description: 'My kayak, one of the first captures',
+    date: new Date(Date.UTC(2020, 1, 8)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'noob-saibot-sunset.jpg',
+    src: `${baseUrl}/kayak/IMG_20200711_181140564.jpg`,
+    orientation: 'horizontal',
+    description: 'Noob Saibot watching a sunset on the Paraná River',
+    date: new Date(Date.UTC(2020, 6, 11)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'kayak-me-self-portrait.jpg',
+    src: `${baseUrl}/kayak/IMG_20200712_134446755.jpg`,
+    orientation: 'horizontal',
+    description: 'My kayak and I (self-portrait)',
+    date: new Date(Date.UTC(2020, 6, 12)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'kayak-friends-doing-three.jpg',
+    src: `${baseUrl}/kayak/IMG_20211003_184159481.jpg`,
+    orientation: 'horizontal',
+    description: 'I can\'t remember what the three was',
+    date: new Date(Date.UTC(2021, 9, 3)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'mariano-gabriel-san-marquitos.jpg',
+    src: `${baseUrl}/kayak/IMG_20240527_164946645.jpg`,
+    orientation: 'horizontal',
+    description: 'With Mariano and Gabriel, two frequent kayak partners',
+    date: new Date(Date.UTC(2024, 4, 27)),
+    location: Locations.Argentina.Rosario
   }
 ];
