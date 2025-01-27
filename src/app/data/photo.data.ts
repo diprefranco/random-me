@@ -434,5 +434,55 @@ export const photoData: Photo[] = [
     description: 'With Mariano and Gabriel, two frequent kayak partners',
     date: new Date(Date.UTC(2024, 4, 27)),
     location: Locations.Argentina.Rosario
+  },
+
+  //----------- mountains -----------//
+  {
+    fileName: 'champaqui-summit-2021.jpg',
+    src: `${baseUrl}/mountains/champaqui-2021/IMG_20210402_144336554.jpg`,
+    orientation: 'horizontal',
+    description: 'At 2,790 m.a.s.l. on Cerro Champaquí\'s summit',
+    date: new Date(Date.UTC(2021, 3, 2)),
+    location: Locations.Argentina.Champaqui
+  },
+  {
+    fileName: 'champaqui-with-my-staff.jpg',
+    src: `${baseUrl}/mountains/champaqui-2021/IMG_20210404_085008343.jpg`,
+    orientation: 'vertical',
+    description: 'On my favorite mountain Cerro Champaquí, with everything on my back',
+    date: new Date(Date.UTC(2021, 3, 4)),
+    location: Locations.Argentina.Champaqui
+  },
+  {
+    fileName: 'champaqui-posing-landscape.jpg',
+    src: `${baseUrl}/mountains/champaqui-2021/IMG_20210404_112711626_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Cerro Champaquí, one of my favorite places',
+    date: new Date(Date.UTC(2021, 3, 4)),
+    location: Locations.Argentina.Champaqui
+  },
+  {
+    fileName: 'penitentes-full-load.jpg',
+    src: `${baseUrl}/mountains/penitentes-2022/IMG_20220117_161459963.jpg`,
+    orientation: 'vertical',
+    description: 'Cerro Penitentes, carrying the full load',
+    date: new Date(Date.UTC(2022, 0, 17)),
+    location: Locations.Argentina.Penitentes
+  },
+  {
+    fileName: 'penitentes-aconcagua-behind.jpg',
+    src: `${baseUrl}/mountains/penitentes-2022/IMG_20220119_091446693.jpg`,
+    orientation: 'vertical',
+    description: 'Cerro Penitentes, with Aconcagua behind me',
+    date: new Date(Date.UTC(2022, 0, 19)),
+    location: Locations.Argentina.Penitentes
+  },
+  {
+    fileName: 'penitentes-summit-2022.jpg',
+    src: `${baseUrl}/mountains/penitentes-2022/IMG_20220119_125805540.jpg`,
+    orientation: 'horizontal',
+    description: 'At 4,350 m.a.s.l. on Cerro Penitentes\'s summit',
+    date: new Date(Date.UTC(2022, 0, 19)),
+    location: Locations.Argentina.Penitentes
   }
 ];
