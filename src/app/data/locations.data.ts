@@ -16,13 +16,18 @@ export const Locations = {
   },
   Italy: {
     Country: 'Italy',
-    Rome: 'Rome, Italy'
+    Rome: 'Rome, Italy',
+    Pisa: 'Pisa, Italy'
   },
   Spain: {
     Barcelona: 'Barcelona, Spain',
+    Sitges: 'Sitges, Spain',
     Almeria: 'Almería, Spain',
     Malaga: 'Málaga, Spain',
     Granada: 'Granada, Spain',
     Ronda: 'Ronda, Spain'
+  },
+  UK: {
+    NorthernIreland: 'Northern Ireland, UK'
   }
 };

@@ -747,5 +747,37 @@ export const photoData: Photo[] = [
     location: Locations.Italy.Country,
     photographer: Photographers.JulianGuardia.Name,
     photographerUrl: Photographers.JulianGuardia.Url
+  },
+  {
+    fileName: 'giant-causeway-2019.jpg',
+    src: `${baseUrl}/travels/europe/spain-irland-italy-2019/IMG_20190427_132034982_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'At Giant\'s Causeway',
+    date: new Date(Date.UTC(2019, 3, 27)),
+    location: Locations.UK.NorthernIreland
+  },
+  {
+    fileName: 'tower-of-pisa-2019.jpg',
+    src: `${baseUrl}/travels/europe/spain-irland-italy-2019/IMG_20190430_152229606.jpg`,
+    orientation: 'vertical',
+    description: 'I had to do it',
+    date: new Date(Date.UTC(2019, 3, 30)),
+    location: Locations.Italy.Pisa
+  },
+  {
+    fileName: 'sitges-beach-2019.jpg',
+    src: `${baseUrl}/travels/europe/spain-irland-italy-2019/IMG_20190510_115846418.jpg`,
+    orientation: 'horizontal',
+    description: '"Dude, it\'s a beach. Take your clothes off!"',
+    date: new Date(Date.UTC(2019, 4, 10)),
+    location: Locations.Spain.Sitges
+  },
+  {
+    fileName: 'carrer-bisbe-barcelona-2019.jpg',
+    src: `${baseUrl}/travels/europe/spain-irland-italy-2019/IMG_20190513_202833998.jpg`,
+    orientation: 'horizontal',
+    description: 'Carrer del Bisbe, Barcelona',
+    date: new Date(Date.UTC(2019, 4, 13)),
+    location: Locations.Spain.Barcelona
   }
 ];
