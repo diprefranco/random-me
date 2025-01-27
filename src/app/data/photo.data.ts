@@ -779,5 +779,53 @@ export const photoData: Photo[] = [
     description: 'Carrer del Bisbe, Barcelona',
     date: new Date(Date.UTC(2019, 4, 13)),
     location: Locations.Spain.Barcelona
+  },
+  {
+    fileName: 'refugio-frey-bariloche-2020.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/bariloche-2020/20200125_102118.jpg`,
+    orientation: 'horizontal',
+    description: 'Refugio Frey in summer',
+    date: new Date(Date.UTC(2020, 0, 25)),
+    location: Locations.Argentina.Bariloche
+  },
+  {
+    fileName: 'mascardi-bariloche-2020.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/bariloche-2020/IMG_20200120_095731479.jpg`,
+    orientation: 'horizontal',
+    description: 'Before starting the adventure, at Mascardi Lake',
+    date: new Date(Date.UTC(2020, 0, 20)),
+    location: Locations.Argentina.Bariloche
+  },
+  {
+    fileName: 'relaxing-nature-bariloche-2020.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/bariloche-2020/IMG_20200123_165829723_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Relaxing a little bit in nature',
+    date: new Date(Date.UTC(2020, 0, 23)),
+    location: Locations.Argentina.Bariloche
+  },
+  {
+    fileName: 'francos-lucians-team-belgrano.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/capilla-del-monte-2019/IMG_20190706_170529069.jpg`,
+    orientation: 'horizontal',
+    description: 'From left to right: Franco, Luciana, Luciano, Franco (easy to remember)',
+    date: new Date(Date.UTC(2019, 6, 6)),
+    location: Locations.Argentina.VillaGeneralBelgrano
+  },
+  {
+    fileName: 'francos-lucians-team-capilla.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/capilla-del-monte-2019/IMG_20190707_155854481.jpg`,
+    orientation: 'horizontal',
+    description: 'The Francos and Lucians Team on holiday',
+    date: new Date(Date.UTC(2019, 6, 7)),
+    location: Locations.Argentina.CapillaDelMonte
+  },
+  {
+    fileName: 'old-man-uritorco-summit.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/capilla-del-monte-2019/IMG_20190708_121550574.jpg`,
+    orientation: 'horizontal',
+    description: 'At 1,949 m.a.s.l. on Cerro Uritorco\'s summit',
+    date: new Date(Date.UTC(2019, 6, 8)),
+    location: Locations.Argentina.CapillaDelMonte
   }
 ];
