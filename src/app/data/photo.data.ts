@@ -827,5 +827,173 @@ export const photoData: Photo[] = [
     description: 'At 1,949 m.a.s.l. on Cerro Uritorco\'s summit',
     date: new Date(Date.UTC(2019, 6, 8)),
     location: Locations.Argentina.CapillaDelMonte
+  },
+  {
+    fileName: 'rada-tilly-view.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/comodoro-puerto-madryn-2022/IMG_20220827_171016883_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Stunning view from Rada Tilly',
+    date: new Date(Date.UTC(2022, 7, 27)),
+    location: Locations.Argentina.RadaTilly
+  },
+  {
+    fileName: 'valdes-peninsula-view.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/comodoro-puerto-madryn-2022/IMG_20220911_114344599_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Amazing view from Valdes Peninsula',
+    date: new Date(Date.UTC(2022, 8, 11)),
+    location: Locations.Argentina.PuertoMadryn
+  },
+  {
+    fileName: 'puerto-piramides-view.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/comodoro-puerto-madryn-2022/IMG_20220911_183413792_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'In Puerto Pirámides, after the whale watching experience',
+    date: new Date(Date.UTC(2022, 8, 11)),
+    location: Locations.Argentina.PuertoPiramides
+  },
+  {
+    fileName: 'el-bolson-lost.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230110_122615737_HDR.jpg`,
+    orientation: 'vertical',
+    description: '"Umm. And now what?"',
+    date: new Date(Date.UTC(2023, 0, 10)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'el-bolson-hielo-azul.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230110_150039279_MF_PORTRAIT.jpg`,
+    orientation: 'vertical',
+    description: '"Excuse me sir, can you take a picture of me? It\'s for a random website"',
+    date: new Date(Date.UTC(2023, 0, 10)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'el-bolson-hielo-azul-2.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230110_160704914.jpg`,
+    orientation: 'horizontal',
+    description: 'This was the view on the mountain near Refugio Hielo Azul',
+    date: new Date(Date.UTC(2023, 0, 10)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'el-bolson-cajon-azul.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230112_155756277_HDR.jpg`,
+    orientation: 'horizontal',
+    description: '"Excuse me, miss, could you tell me where El Cajón del Azul is?"',
+    date: new Date(Date.UTC(2023, 0, 12)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'el-bolson-dangerous-picture.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230112_161114478_MF_PORTRAIT.jpg`,
+    orientation: 'vertical',
+    description: '"It\'s high from here, common, take that picture!"',
+    date: new Date(Date.UTC(2023, 0, 12)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'el-bolson-fishing.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230114_203622315_HDR.jpg`,
+    orientation: 'vertical',
+    description: '"I\'ll bet you the next one will be big"',
+    date: new Date(Date.UTC(2023, 0, 14)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'el-bolson-waterfall-guy.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230119_125009288_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'I imagine heaven looks something like this',
+    date: new Date(Date.UTC(2023, 0, 19)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'el-bolson-lost.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230119_125053991_HDR.jpg`,
+    orientation: 'vertical',
+    description: '"What\'s that smell? Don\'t look at me!"',
+    date: new Date(Date.UTC(2023, 0, 19)),
+    location: Locations.Argentina.ElBolson
+  },
+  {
+    fileName: 'mendoza-duna-love.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472103612_10162969501846019_8225677459689060081_n.jpg`,
+    orientation: 'horizontal',
+    description: '"They look really nice together. I like that couple"',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Potrerillos
+  },
+  {
+    fileName: 'mendoza-big-effort.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472143666_10162971868331019_745720350090581797_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Maybe If I just pull this..."',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Mendoza
+  },
+  {
+    fileName: 'mendoza-dont-jump.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472194529_10162971335786019_348591528595031561_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Maybe If I jump the fence I can..."',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Mendoza
+  },
+  {
+    fileName: 'mendoza-duna-cute.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472313110_10162971773491019_440054262218766600_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Hey, look who I found. Where were you little buddy?"',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Mendoza
+  },
+  {
+    fileName: 'mendoza-matecitos-holiday.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472318429_10162970907126019_5294242965235418594_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Having Matecitos on holiday',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanRafael
+  },
+  {
+    fileName: 'mendoza-rafting-san-rafael.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472363549_10162972207381019_7775837811409311699_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Rafting in San Rafael!',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanRafael
+  },
+  {
+    fileName: 'mendoza-tirolesa-san-rafael.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472386308_10162970860471019_7519454413996787252_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Okay, but this is safe, right?"',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanRafael
+  },
+  {
+    fileName: 'mendoza-potrerillos-trying-something.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472685556_10162972506201019_5679809176131978911_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Here we can see the Homo sapiens trying... um... something"',
+    date: new Date(Date.UTC(2015, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Potrerillos
+  },
+  {
+    fileName: 'purmamarca-2022-tree.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/purmamarca-2022/IMG_20220305_134101738_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'It was about an hour and a half north of Purmamarca. Let me know if you know it',
+    date: new Date(Date.UTC(2022, 2, 5)),
+    location: Locations.Argentina.Purmamarca
   }
 ];

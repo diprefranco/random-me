@@ -8,10 +8,18 @@ export const Locations = {
     Champaqui: 'Cerro Champaquí, Córdoba, Argentina',
     VillaGeneralBelgrano: 'Villa General Belgrano, Córdoba, Argentina',
     CapillaDelMonte: 'Capilla del Monte, Córdoba, Argentina',
+    Mendoza: 'Mendoza, Argentina',
+    Potrerillos: 'Potrerillos, Mendoza, Argentina',
+    SanRafael: 'San Rafael, Mendoza, Argentina',
     Penitentes: 'Cerro Penitentes, Mendoza, Argentina',
+    Purmamarca: 'Purmamarca, Argentina',
     MDQ: 'Mar del Plata, Argentina',
     Carilo: 'Cariló, Argentina',
-    Bariloche: 'San Carlos de Bariloche, Argentina'
+    Bariloche: 'San Carlos de Bariloche, Argentina',
+    ElBolson: 'El Bolsón, Argentina',
+    RadaTilly: 'Rada Tilly, Chubut, Argentina',
+    PuertoMadryn: 'Puerto Madryn, Argentina',
+    PuertoPiramides: 'Puerto Pirámides, Chubut, Argentina'
   },
   Brazil: {
     Buzios: 'Armação dos Búzios, Brazil',
