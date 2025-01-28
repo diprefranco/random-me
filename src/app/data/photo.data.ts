@@ -995,5 +995,93 @@ export const photoData: Photo[] = [
     description: 'It was about an hour and a half north of Purmamarca. Let me know if you know it',
     date: new Date(Date.UTC(2022, 2, 5)),
     location: Locations.Argentina.Purmamarca
+  },
+  {
+    fileName: 'cabalango-being-zen.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/rio-zeballos-2021/IMG_20210217_171034.jpg`,
+    orientation: 'horizontal',
+    description: 'Being Zen',
+    date: new Date(Date.UTC(2021, 1, 17)),
+    location: Locations.Argentina.Cabalango
+  },
+  {
+    fileName: 'rio-ceballos-river-worried.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/rio-zeballos-2021/IMG_20210218_150456.jpg`,
+    orientation: 'horizontal',
+    description: '"Dude, I think something was moving there"',
+    date: new Date(Date.UTC(2021, 1, 18)),
+    location: Locations.Argentina.RioCeballos
+  },
+  {
+    fileName: 'rio-ceballos-condorito.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/rio-zeballos-2021/IMG_20210219_154636.jpg`,
+    orientation: 'horizontal',
+    description: 'With Condorito, a dog that guided us to the \'Cascada de los Cóndores\'',
+    date: new Date(Date.UTC(2021, 1, 19)),
+    location: Locations.Argentina.RioCeballos
+  },
+  {
+    fileName: 'rio-ceballos-condorito-chill.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/rio-zeballos-2021/IMG_20210219_170559.jpg`,
+    orientation: 'vertical',
+    description: 'With Condorito, a dog that really knows how to chill',
+    date: new Date(Date.UTC(2021, 1, 19)),
+    location: Locations.Argentina.RioCeballos
+  },
+  {
+    fileName: 'waterfall-sexy-stare.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/rio-zeballos-2021/IMG_20210219_171918.jpg`,
+    orientation: 'horizontal',
+    description: 'Natural sexy stare guy',
+    date: new Date(Date.UTC(2021, 1, 19)),
+    location: Locations.Argentina.RioCeballos
+  },
+  {
+    fileName: 'ushuaia-dating-apps-dude.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/ushuaia-2022/IMG_20221120_123807455_MF_PORTRAIT.jpg`,
+    orientation: 'vertical',
+    description: '"Give me a sexy nice photo. You know, for dating apps"',
+    date: new Date(Date.UTC(2022, 10, 20)),
+    location: Locations.Argentina.Ushuaia
+  },
+  {
+    fileName: 'ushuaia-bahia-lapataia.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/ushuaia-2022/IMG_20221120_164024707_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Entering to Bahía Lapataia National Park',
+    date: new Date(Date.UTC(2022, 10, 20)),
+    location: Locations.Argentina.Ushuaia
+  },
+  {
+    fileName: 'ushuaia-loren-martial.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/ushuaia-2022/IMG_20221121_125641435_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'With Lorenzo on the Glaciar Martial trail',
+    date: new Date(Date.UTC(2022, 10, 21)),
+    location: Locations.Argentina.Ushuaia
+  },
+  {
+    fileName: 'ushuaia-loren-vinciguerra.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/ushuaia-2022/IMG_20221123_114808752_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'With Lorenzo at Glaciar Vinciguerra',
+    date: new Date(Date.UTC(2022, 10, 23)),
+    location: Locations.Argentina.Ushuaia
+  },
+  {
+    fileName: 'ushuaia-glaciar-vinciguerra-cave.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/ushuaia-2022/IMG_20221123_125502583_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'At Glaciar Vinciguerra',
+    date: new Date(Date.UTC(2022, 10, 23)),
+    location: Locations.Argentina.Ushuaia
+  },
+  {
+    fileName: 'ushuaia-faro-les-eclaireurs.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/ushuaia-2022/IMG_20221124_112414818_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'At Faro Les Éclaireurs',
+    date: new Date(Date.UTC(2022, 10, 24)),
+    location: Locations.Argentina.Ushuaia
   }
 ];

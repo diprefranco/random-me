@@ -8,6 +8,8 @@ export const Locations = {
     Champaqui: 'Cerro Champaquí, Córdoba, Argentina',
     VillaGeneralBelgrano: 'Villa General Belgrano, Córdoba, Argentina',
     CapillaDelMonte: 'Capilla del Monte, Córdoba, Argentina',
+    Cabalango: 'Cabalango, Córdoba, Argentina',
+    RioCeballos: 'Río Ceballos, Córdoba, Argentina',
     Mendoza: 'Mendoza, Argentina',
     Potrerillos: 'Potrerillos, Mendoza, Argentina',
     SanRafael: 'San Rafael, Mendoza, Argentina',
@@ -19,7 +21,8 @@ export const Locations = {
     ElBolson: 'El Bolsón, Argentina',
     RadaTilly: 'Rada Tilly, Chubut, Argentina',
     PuertoMadryn: 'Puerto Madryn, Argentina',
-    PuertoPiramides: 'Puerto Pirámides, Chubut, Argentina'
+    PuertoPiramides: 'Puerto Pirámides, Chubut, Argentina',
+    Ushuaia: 'Ushuaia, Argentina'
   },
   Brazil: {
     Buzios: 'Armação dos Búzios, Brazil',
