@@ -1083,5 +1083,86 @@ export const photoData: Photo[] = [
     description: 'At Faro Les Éclaireurs',
     date: new Date(Date.UTC(2022, 10, 24)),
     location: Locations.Argentina.Ushuaia
+  },
+  {
+    fileName: 'chachin-waterfall-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/465559014_10235473302360029_6634168466318742626_n.jpg`,
+    orientation: 'horizontal',
+    description: 'All the team at Chachin waterfall',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanMartinDeLosAndes
+  },
+  {
+    fileName: 'big-fallen-tree-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/465740761_10235473303600060_8112153356760009831_n.jpg`,
+    orientation: 'horizontal',
+    description: 'With the big fallen tree on the Chachin waterfall trail',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanMartinDeLosAndes
+  },
+  {
+    fileName: 'flying-sandwich-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/465764034_10235403550656280_5340835464647742056_n.jpg`,
+    orientation: 'horizontal',
+    description: '"I think with AI we can remove that sandwich now"',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.VillaLaAngostura
+  },
+  {
+    fileName: 'morning-coffee-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/465908450_10235474722515532_3418924094336593557_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Hey Edu, how is the coffee this morning? Is it good?"',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanMartinDeLosAndes
+  },
+  {
+    fileName: 'sinking-boat-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/466380844_10235478562531530_530030742405152431_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Ahh, Ahhh, help!"',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.VillaLaAngostura
+  },
+  {
+    fileName: 'cottage-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/466412290_10235487701039987_4331649296590245355_n.jpg`,
+    orientation: 'horizontal',
+    description: '"I set up the camera. Everyone, gather for the photo! Uh... do something!"',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.VillaLaAngostura
+  },
+  {
+    fileName: 'matrix-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/472288238_10162944572686019_1203623246811316914_n.jpg`,
+    orientation: 'horizontal',
+    description: 'All the team gathered in a 3x3 matrix',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanMartinDeLosAndes
+  },
+  {
+    fileName: 'siete-lagos-falkner-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/472294106_10162944555571019_6974311427996614617_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Falkner lake, the 4th lake we visited. Or... Maybe the 5th one?',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.SanMartinDeLosAndes
+  },
+  {
+    fileName: 'lago-puelo-waterfall-sur-2014.jpg',
+    src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/472470024_10162944574576019_4347088207995396543_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Photo with the waterfall!',
+    date: new Date(Date.UTC(2014, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.LagoPuelo
   }
 ];
