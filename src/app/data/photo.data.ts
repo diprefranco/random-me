@@ -1164,5 +1164,181 @@ export const photoData: Photo[] = [
     date: new Date(Date.UTC(2014, 0, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.LagoPuelo
+  },
+  {
+    fileName: 'pacha-cuty-hostel-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180122_115602455.jpg`,
+    orientation: 'horizontal',
+    description: 'With the Pacha Cuty Hostel Staff',
+    date: new Date(Date.UTC(2018, 0, 22)),
+    location: Locations.Argentina.AmaichaDelValle
+  },
+  {
+    fileName: '7-waterfalls-cafayate-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180123_152351758.jpg`,
+    orientation: 'vertical',
+    description: 'Rio Colorado waterfalls',
+    date: new Date(Date.UTC(2018, 0, 23)),
+    location: Locations.Argentina.Cafayate
+  },
+  {
+    fileName: 'big-waterfall-cafayate-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180123_160640315.jpg`,
+    orientation: 'vertical',
+    description: 'Rio Colorado waterfalls, the bigger one',
+    date: new Date(Date.UTC(2018, 0, 23)),
+    location: Locations.Argentina.Cafayate
+  },
+  {
+    fileName: 'cafayate-travel-mode-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180125_143915322.jpg`,
+    orientation: 'vertical',
+    description: 'Travel Mode: On',
+    date: new Date(Date.UTC(2018, 0, 25)),
+    location: Locations.Argentina.Cafayate
+  },
+  {
+    fileName: 'castillos-quebrada-conchas-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180125_155031596.jpg`,
+    orientation: 'horizontal',
+    description: 'Los Castillos, Quebrada de las Conchas',
+    date: new Date(Date.UTC(2018, 0, 25)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'quebrada-conchas-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180125_171334011.jpg`,
+    orientation: 'horizontal',
+    description: 'Quebrada de las Conchas',
+    date: new Date(Date.UTC(2018, 0, 25)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'quebrada-conchas-2-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180125_183641490.jpg`,
+    orientation: 'horizontal',
+    description: 'Quebrada de las Conchas',
+    date: new Date(Date.UTC(2018, 0, 25)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'anfiteatro-quebrada-conchas-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180125_190501626.jpg`,
+    orientation: 'vertical',
+    description: 'Feeling really small at El Anfiteatro in Quebrada de las Conchas',
+    date: new Date(Date.UTC(2018, 0, 25)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'autostop-quebrada-conchas-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180125_200718534.jpg`,
+    orientation: 'horizontal',
+    description: 'Autostop Mode: On',
+    date: new Date(Date.UTC(2018, 0, 25)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'los-cardones-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180129_133549488.jpg`,
+    orientation: 'horizontal',
+    description: 'Parque Nacional Los Cardones',
+    date: new Date(Date.UTC(2018, 0, 29)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'road-los-cardones-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180129_133936139.jpg`,
+    orientation: 'vertical',
+    description: 'First time lying down on a road at Parque Nacional Los Cardones',
+    date: new Date(Date.UTC(2018, 0, 29)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'high-cachi-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180130_133915708.jpg`,
+    orientation: 'horizontal',
+    description: 'I climbed really high that day!',
+    date: new Date(Date.UTC(2018, 0, 30)),
+    location: Locations.Argentina.Cachi
+  },
+  {
+    fileName: 'museum-cachi-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180131_110328680.jpg`,
+    orientation: 'horizontal',
+    description: 'Museo Arqueológico de Cachi',
+    date: new Date(Date.UTC(2018, 0, 31)),
+    location: Locations.Argentina.Cachi
+  },
+  {
+    fileName: 'mamama-hostel-cachi-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180201_113650575.jpg`,
+    orientation: 'horizontal',
+    description: 'With La Mamama Hostel staff',
+    date: new Date(Date.UTC(2018, 1, 1)),
+    location: Locations.Argentina.Cachi
+  },
+  {
+    fileName: 'chachi-salta-ride-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180201_185226733.jpg`,
+    orientation: 'horizontal',
+    description: 'A father and son gave me a ride from Cachi to Salta City. I was very grateful to them',
+    date: new Date(Date.UTC(2018, 1, 1)),
+    location: Locations.Argentina.Salta
+  },
+  {
+    fileName: 'cuesta-lipan-jujuy-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180205_165325199.jpg`,
+    orientation: 'horizontal',
+    description: 'Cuesta de Lipán, Jujuy',
+    date: new Date(Date.UTC(2018, 1, 5)),
+    location: Locations.Argentina.Jujuy
+  },
+  {
+    fileName: 'salinas-grandes-jujuy-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180205_174455737.jpg`,
+    orientation: 'horizontal',
+    description: 'Salinas Grandes, Jujuy',
+    date: new Date(Date.UTC(2018, 1, 5)),
+    location: Locations.Argentina.Jujuy
+  },
+  {
+    fileName: 'garganta-tilcara-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180206_140642418.jpg`,
+    orientation: 'vertical',
+    description: 'A moustache guy at Garganta del Diablo',
+    date: new Date(Date.UTC(2018, 1, 6)),
+    location: Locations.Argentina.Tilcara
+  },
+  {
+    fileName: 'hornocal-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180209_161807858.jpg`,
+    orientation: 'horizontal',
+    description: 'El Hornocal, the hill of 14 colors',
+    date: new Date(Date.UTC(2018, 1, 9)),
+    location: Locations.Argentina.Jujuy
+  },
+  {
+    fileName: 'hornocal-pov-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180209_164011106.jpg`,
+    orientation: 'vertical',
+    description: 'El Hornocal POV',
+    date: new Date(Date.UTC(2018, 1, 9)),
+    location: Locations.Argentina.Jujuy
+  },
+  {
+    fileName: 'hornocal-2-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180209_172842453.jpg`,
+    orientation: 'horizontal',
+    description: 'El Hornocal, the hill of 14 colors',
+    date: new Date(Date.UTC(2018, 1, 9)),
+    location: Locations.Argentina.Jujuy
+  },
+  {
+    fileName: 'bajada-diablos-uquia-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180210_161841278.jpg`,
+    orientation: 'vertical',
+    description: '"Was that really necessary?" At Bajada de los diablos de Uquía',
+    date: new Date(Date.UTC(2018, 1, 10)),
+    location: Locations.Argentina.Uquia
   }
 ];
