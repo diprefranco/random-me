@@ -1340,5 +1340,169 @@ export const photoData: Photo[] = [
     description: '"Was that really necessary?" At Bajada de los diablos de Uquía',
     date: new Date(Date.UTC(2018, 1, 10)),
     location: Locations.Argentina.Uquia
+  },
+  {
+    fileName: 'fortunato-humahuaca-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG-20180217-WA0109.jpg`,
+    orientation: 'vertical',
+    description: 'With Fortunato Ramos, at La Peña de Fortunato Restaurant',
+    date: new Date(Date.UTC(2018, 1, 17)),
+    location: Locations.Argentina.Humahuaca
+  },
+  {
+    fileName: 'pepe-goat-iruya-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180213_150436987.jpg`,
+    orientation: 'horizontal',
+    description: 'With Pepe, the Goat',
+    date: new Date(Date.UTC(2018, 1, 13)),
+    location: Locations.Argentina.Iruya
+  },
+  {
+    fileName: 'san-isidro-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180215_120314307.jpg`,
+    orientation: 'horizontal',
+    description: 'You can only reach this beautiful little town after an interesting walk from Iruya',
+    date: new Date(Date.UTC(2018, 1, 15)),
+    location: Locations.Argentina.SanIsidro
+  },
+  {
+    fileName: 'road-laguna-colorada-noa-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180218_172110890.jpg`,
+    orientation: 'horizontal',
+    description: 'The road to Laguna Colorada',
+    date: new Date(Date.UTC(2018, 1, 18)),
+    location: Locations.Argentina.Yavi
+  },
+  {
+    fileName: 'train-cemetery-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_110954702.jpg`,
+    orientation: 'horizontal',
+    description: '"I don\'t want to be buried in a Train Cemetery"',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'dakar-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_135448691.jpg`,
+    orientation: 'horizontal',
+    description: 'Dakar monument at Salar de Uyuni',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'small-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_141856049.jpg`,
+    orientation: 'horizontal',
+    description: '"Please, don\'t, I\'m begging you!"',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'brothers-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_155302937.jpg`,
+    orientation: 'vertical',
+    description: 'Flags of brothers',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'uyuni-attack-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_164247444.jpg`,
+    orientation: 'horizontal',
+    description: '"Run! Run for your life!"',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'pringles-tube-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_164501145.jpg`,
+    orientation: 'vertical',
+    description: '"Ok, I\'m out of here!"',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'uyuni-double-attack-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_171717679.jpg`,
+    orientation: 'horizontal',
+    description: '"Don\'t do it! Please!"',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'invisible-man-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180222_173318028.jpg`,
+    orientation: 'vertical',
+    description: '"I\'m Franco, nice to meet you"',
+    date: new Date(Date.UTC(2018, 1, 22)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'geyser-road-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180223_124904816.jpg`,
+    orientation: 'vertical',
+    description: '"Look! An Homo sapiens, over there!"',
+    date: new Date(Date.UTC(2018, 1, 23)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'lagunas-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180223_151438459.jpg`,
+    orientation: 'horizontal',
+    description: 'In some of the Lagunas de Colores',
+    date: new Date(Date.UTC(2018, 1, 23)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'arbol-piedra-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180223_164320999.jpg`,
+    orientation: 'horizontal',
+    description: 'Stone Tree',
+    date: new Date(Date.UTC(2018, 1, 23)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'laguna-colorada-uyuni-bolivia-2018.jpg',
+    src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180223_171900935.jpg`,
+    orientation: 'horizontal',
+    description: 'Laguna Colorada',
+    date: new Date(Date.UTC(2018, 1, 23)),
+    location: Locations.Bolivia.Uyuni
+  },
+  {
+    fileName: 'monument-colonia-uruguay-2016.jpg',
+    src: `${baseUrl}/travels/south-america/colonia-uruguay-2016/467335756_10235683784261945_763181451835413526_n.jpg`,
+    orientation: 'vertical',
+    description: 'Living monument',
+    date: new Date(Date.UTC(2016, 5, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Uruguay.Colonia
+  },
+  {
+    fileName: 'joke-colonia-uruguay-2016.jpg',
+    src: `${baseUrl}/travels/south-america/colonia-uruguay-2016/467456071_10235683781981888_3887547748916434177_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Where do ghosts like to vacation? The boo-hamas"',
+    date: new Date(Date.UTC(2016, 5, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Uruguay.Colonia
+  },
+  {
+    fileName: 'planet-earth-colonia-uruguay-2016.jpg',
+    src: `${baseUrl}/travels/south-america/colonia-uruguay-2016/467512323_10235683779501826_5911607443931757076_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Welcome to planet Earth"',
+    date: new Date(Date.UTC(2016, 5, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Uruguay.Colonia
+  },
+  {
+    fileName: 'evidence-colonia-uruguay-2016.jpg',
+    src: `${baseUrl}/travels/south-america/colonia-uruguay-2016/467546593_10235683781861885_8828018186315683108_n.jpg`,
+    orientation: 'horizontal',
+    description: 'This is the proof we were there',
+    date: new Date(Date.UTC(2016, 5, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Uruguay.Colonia
   }
 ];

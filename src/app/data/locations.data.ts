@@ -18,10 +18,14 @@ export const Locations = {
     Cafayate: 'Cafayate, Salta, Argentina',
     Salta: 'Salta, Argentina',
     Cachi: 'Cachi, Salta, Argentina',
+    Iruya: 'Iruya, Salta, Argentina',
+    SanIsidro: 'San Isidro de Iruya, Salta, Argentina',
     Jujuy: 'Jujuy, Argentina',
     Purmamarca: 'Purmamarca, Jujuy, Argentina',
     Tilcara: 'Tilcara, Jujuy, Argentina',
+    Humahuaca: 'Humahuaca, Jujuy, Argentina',
     Uquia: 'Uquía, Jujuy, Argentina',
+    Yavi: 'Yavi, Jujuy, Argentina',
     MDQ: 'Mar del Plata, Argentina',
     Carilo: 'Cariló, Argentina',
     Bariloche: 'San Carlos de Bariloche, Argentina',
@@ -33,6 +37,12 @@ export const Locations = {
     PuertoMadryn: 'Puerto Madryn, Argentina',
     PuertoPiramides: 'Puerto Pirámides, Chubut, Argentina',
     Ushuaia: 'Ushuaia, Argentina'
+  },
+  Uruguay: {
+    Colonia: 'Colonia del Sacramento, Uruguay'
+  },
+  Bolivia: {
+    Uyuni: 'Uyuni, Bolivia'
   },
   Brazil: {
     Buzios: 'Armação dos Búzios, Brazil',
