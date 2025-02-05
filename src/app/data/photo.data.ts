@@ -1504,5 +1504,138 @@ export const photoData: Photo[] = [
     date: new Date(Date.UTC(2016, 5, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Uruguay.Colonia
+  },
+
+  //----------- university -----------//
+  {
+    fileName: 'isi-graduation-party-2013.jpg',
+    src: `${baseUrl}/university/graduation/465418140_10234853287341304_6529494060457380117_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Information Systems Engineering Graduation Party',
+    date: new Date(Date.UTC(2013, 10, 23)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'isi-graduation-party-cake-2013.jpg',
+    src: `${baseUrl}/university/graduation/IMG_20250121_164650847_HDR.jpg`,
+    orientation: 'horizontal',
+    description: 'Information Systems Engineering Graduation Party',
+    date: new Date(Date.UTC(2013, 10, 23)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'la-chamuyera-with-lu.jpg',
+    src: `${baseUrl}/university/les-ebries/462512472_2601032123416885_4864519707539126700_n.jpg`,
+    orientation: 'vertical',
+    description: 'With Luciana at La Chamuyera, the best place Rosario ever had',
+    date: new Date(Date.UTC(2016, 8, 4)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'mj-nadina-edu-wedding.jpg',
+    src: `${baseUrl}/university/mj/52970996_10219104045415801_8707207222318333952_n.jpg`,
+    orientation: 'horizontal',
+    description: 'MJ team at the Nadina & Edu\'s wedding party',
+    date: new Date(Date.UTC(2019, 2, 2)),
+    location: Locations.Argentina.Funes
+  },
+  {
+    fileName: 'weird-chord-tarca.jpg',
+    src: `${baseUrl}/university/mj/461202018_8332929030094253_9127325568694487224_n.jpg`,
+    orientation: 'horizontal',
+    description: '"What? F#? What programming language is that?"',
+    date: new Date(Date.UTC(2012, 8, 14)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'uni-young-dudes-2010.jpg',
+    src: `${baseUrl}/university/mj/462463940_10234830549971891_7236880875476532329_n.jpg`,
+    orientation: 'horizontal',
+    description: 'University gang back in the old days',
+    date: new Date(Date.UTC(2010, 6, 2)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'mj-gonzalez-hotel-2012.jpg',
+    src: `${baseUrl}/university/mj/462846690_9664836953545869_6228514025460918034_n.jpg`,
+    orientation: 'horizontal',
+    description: 'MJ team at Gonzalez Hotel. First releases',
+    date: new Date(Date.UTC(2012, 9, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'club-mitre-jamming-2012.jpg',
+    src: `${baseUrl}/university/mj/464421466_10235326126470823_5755406377111369614_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Guitar solo at Club Mitre',
+    date: new Date(Date.UTC(2012, 2, 15)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'the-dude-array-2012.jpg',
+    src: `${baseUrl}/university/mj/465009758_10235424928620815_6700930370204558740_n.jpg`,
+    orientation: 'vertical',
+    description: 'I\'m in fourth position',
+    date: new Date(Date.UTC(2012, 11, 8)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'the-last-song-tarca.jpg',
+    src: `${baseUrl}/university/mj/465018428_10235429485374731_3158619530533459461_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Come oooon, just one more... pleeease?"',
+    date: new Date(Date.UTC(2012, 11, 23)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'lucas-the-first-engineer.jpg',
+    src: `${baseUrl}/university/mj/465111422_10233934402919909_4093185883105647874_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Lucas is engineer',
+    date: new Date(Date.UTC(2013, 4, 8)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'fola-me-titina-2012.jpg',
+    src: `${baseUrl}/university/mj/465143727_10236247523155261_2253760286521756783_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Fola Me, Titina',
+    date: new Date(Date.UTC(2012, 8, 26)),
+    location: Locations.Argentina.Pergamino
+  },
+  {
+    fileName: 'the-mj-show.jpg',
+    src: `${baseUrl}/university/mj/465366682_10236323420532648_6233594996273021016_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Man, this show is so boring..."',
+    date: new Date(Date.UTC(2013, 3, 25)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'mj-gacela-playing-2013.jpg',
+    src: `${baseUrl}/university/mj/465453095_10236342145080750_1639035126841455257_n.jpg`,
+    orientation: 'horizontal',
+    description: 'The Tebi\'s Gacela experience',
+    date: new Date(Date.UTC(2013, 5, 21)),
+    location: Locations.Argentina.Funes
+  },
+  {
+    fileName: 'random-time-travel-moment.jpg',
+    src: `${baseUrl}/university/mj/465580513_10236413778271535_8255287327576885763_n.jpg`,
+    orientation: 'horizontal',
+    description: '"I\'m telling you. This guy built a random website and he looks just like you"',
+    date: new Date(Date.UTC(2013, 11, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'double-g-major-tebi.jpg',
+    src: `${baseUrl}/university/mj/465976816_10236413784951702_626979564142561947_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Give me everything you\'ve got, come on!"',
+    date: new Date(Date.UTC(2013, 11, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Rosario
   }
 ];

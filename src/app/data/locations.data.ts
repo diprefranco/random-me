@@ -3,6 +3,7 @@ export const Locations = {
     Rosario: 'Rosario, Argentina',
     Funes: 'Funes, Argentina',
     Colon: 'Colón, Buenos Aires, Argentina',
+    Pergamino: 'Pergamino, Buenos Aires, Argentina',
     Casilda: 'Casilda, Santa Fe, Argentina',
     CarlosPaz: 'Villa Carlos Paz, Córdoba, Argentina',
     Champaqui: 'Cerro Champaquí, Córdoba, Argentina',
