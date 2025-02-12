@@ -12,7 +12,7 @@ export const photoData: Photo[] = [
     src: `${baseUrl}/alone/464225532_10235293245888829_5377867425533438746_n.jpg`,
     orientation: 'horizontal',
     description: 'When you really feel it',
-    // missing: date
+    date: new Date(Date.UTC(2011, 11, 18)),
     location: Locations.Argentina.Rosario
   },
   {
@@ -349,11 +349,11 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Casilda
   },
   {
-    fileName: 'dad-me-uni-prom.jpg',
+    fileName: 'dad-me-graduation-party-2013.jpg',
     src: `${baseUrl}/family/IMG_20250121_164837665_HDR.jpg`,
     orientation: 'vertical',
-    description: 'With my dad at my uni prom party',
-    // missing: date
+    description: 'With my dad at my university graduation party',
+    date: new Date(Date.UTC(2013, 10, 23)),
     location: Locations.Argentina.Rosario
   },
   {
