@@ -92,10 +92,19 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Casilda
   },
   {
-    fileName: 'childhood-with-my-cousins-wal-caro-yard.jpg',
+    fileName: 'childhood-with-my-cousins-yard.jpg',
     src: `${baseUrl}/childhood/IMG_20250121_162436337_HDR.jpg`,
     orientation: 'vertical',
     description: 'With my cousins Walter and Carolina',
+    date: new Date(Date.UTC(1991, 0, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Casilda
+  },
+  {
+    fileName: 'childhood-with-my-cousins-pool.jpg',
+    src: `${baseUrl}/childhood/IMG_20250121_162516424_HDR.jpg`,
+    orientation: 'vertical',
+    description: 'We are the gang of cousins. Be careful, we have our own pool',
     date: new Date(Date.UTC(1991, 0, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.Casilda
@@ -1636,6 +1645,58 @@ export const photoData: Photo[] = [
     description: '"Give me everything you\'ve got, come on!"',
     date: new Date(Date.UTC(2013, 11, 1)),
     dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'the-pope-costume.jpg',
+    src: `${baseUrl}/university/the-pope-costume-party/472351803_10163026032106019_5193330733424039290_n.jpg`,
+    orientation: 'horizontal',
+    description: '"Man, making a Pope costume is no piece of cake"',
+    date: new Date(Date.UTC(2013, 7, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'the-pope-cardinals.jpg',
+    src: `${baseUrl}/university/the-pope-costume-party/472523892_10163026017126019_1125686851546216467_n.jpg`,
+    orientation: 'horizontal',
+    description: 'The Pope and the cardinals in Paraná',
+    date: new Date(Date.UTC(2013, 7, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Parana
+  },
+  {
+    fileName: 'the-pope-and-kick-ass.jpg',
+    src: `${baseUrl}/university/the-pope-costume-party/472768035_10163026002656019_8185504035995224297_n.jpg`,
+    orientation: 'horizontal',
+    description: 'Bringing peace and justice with Kick Ass',
+    date: new Date(Date.UTC(2013, 7, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Parana
+  },
+  {
+    fileName: 'the-pope-greeting.jpg',
+    src: `${baseUrl}/university/the-pope-costume-party/473024706_10163026003336019_337373674209624426_n.jpg`,
+    orientation: 'vertical',
+    description: 'White smoke, a new Pope has been selected',
+    date: new Date(Date.UTC(2013, 7, 1)),
+    dateComposedBy: DateParts.MonthYear,
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'qgood-after-office.jpg',
+    src: `${baseUrl}/work/qgood/IMG-20171229-WA0005.jpg`,
+    orientation: 'horizontal',
+    description: 'With the QGood team hanging out',
+    date: new Date(Date.UTC(2017, 11, 29)),
+    location: Locations.Argentina.Rosario
+  },
+  {
+    fileName: 'dev-simulator.jpg',
+    src: `${baseUrl}/work/sancris/IMG_20190913_163242170_BURST001.jpg`,
+    orientation: 'horizontal',
+    description: 'This guy works harder than me!',
+    date: new Date(Date.UTC(2019, 8, 13)),
     location: Locations.Argentina.Rosario
   }
 ];

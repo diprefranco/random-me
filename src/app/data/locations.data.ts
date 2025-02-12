@@ -5,6 +5,7 @@ export const Locations = {
     Colon: 'Colón, Buenos Aires, Argentina',
     Pergamino: 'Pergamino, Buenos Aires, Argentina',
     Casilda: 'Casilda, Santa Fe, Argentina',
+    Parana: 'Paraná, Entre Ríos, Argentina',
     CarlosPaz: 'Villa Carlos Paz, Córdoba, Argentina',
     Champaqui: 'Cerro Champaquí, Córdoba, Argentina',
     VillaGeneralBelgrano: 'Villa General Belgrano, Córdoba, Argentina',
