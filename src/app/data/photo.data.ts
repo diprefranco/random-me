@@ -749,7 +749,7 @@ export const photoData: Photo[] = [
   },
   {
     fileName: 'italy-with-the-guys.jpg',
-    src: `${baseUrl}/travels/europe/italy-spain-2023/italy-with-the-guys.jpg`,
+    src: `${baseUrl}/travels/europe/italy-spain-2023/IMG_20230717_2319.jpg`,
     orientation: 'horizontal',
     description: 'With Santiago and Julian in Italy',
     date: new Date(Date.UTC(2023, 6, 17)),
