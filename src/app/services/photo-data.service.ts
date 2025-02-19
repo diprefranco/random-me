@@ -11,7 +11,7 @@ export class PhotoDataService {
     return photoData.length;
   }
 
-  getPhotoAt(index: number): Photo {
+  getPhotoAt(index: number): Photo | undefined {
     return photoData[index];
   }
 }
