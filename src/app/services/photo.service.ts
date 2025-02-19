@@ -10,7 +10,7 @@ export class PhotoService {
   private photoDataService = inject(PhotoDataService);
   private utilityService = inject(UtilityService);
 
-  getRandomPhoto(): Photo {
+  getRandomPhoto(): Photo | undefined {
     const totalPhotoCount = this.photoDataService.getTotalPhotoCount();
     const randomIndex = this.utilityService.getRandomIndex(totalPhotoCount);
     return this.photoDataService.getPhotoAt(randomIndex);
