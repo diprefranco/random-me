@@ -21,8 +21,7 @@ export const photoData: Photo[] = [
     orientation: 'vertical',
     description: 'A handsome man posing in yellow background with parrilla',
     date: new Date(Date.UTC(2021, 6, 8)),
-    location: Locations.Argentina.Casilda,
-    photographer: 'My Mom'
+    location: Locations.Argentina.Casilda
   },
   {
     fileName: 'man-chair-casual.jpg',
@@ -104,7 +103,7 @@ export const photoData: Photo[] = [
     fileName: 'childhood-with-my-cousins-pool.jpg',
     src: `${baseUrl}/childhood/IMG_20250121_162516424_HDR.jpg`,
     orientation: 'vertical',
-    description: 'We are the gang of cousins. Be careful, we have our own pool',
+    description: '"We are the gang of cousins. Be careful, we have our own pool"',
     date: new Date(Date.UTC(1991, 0, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.Casilda
@@ -865,7 +864,7 @@ export const photoData: Photo[] = [
     fileName: 'el-bolson-lost.jpg',
     src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230110_122615737_HDR.jpg`,
     orientation: 'vertical',
-    description: '"Umm. And now what?"',
+    description: '"Um... And now what?"',
     date: new Date(Date.UTC(2023, 0, 10)),
     location: Locations.Argentina.ElBolson
   },
@@ -873,7 +872,7 @@ export const photoData: Photo[] = [
     fileName: 'el-bolson-hielo-azul.jpg',
     src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230110_150039279_MF_PORTRAIT.jpg`,
     orientation: 'vertical',
-    description: '"Excuse me sir, can you take a picture of me? It\'s for a random website"',
+    description: '"Excuse me sir, could you take a picture of me? It\'s for a random website"',
     date: new Date(Date.UTC(2023, 0, 10)),
     location: Locations.Argentina.ElBolson
   },
@@ -889,7 +888,7 @@ export const photoData: Photo[] = [
     fileName: 'el-bolson-cajon-azul.jpg',
     src: `${baseUrl}/travels/south-america/argentina/el-bolson-2023/IMG_20230112_155756277_HDR.jpg`,
     orientation: 'horizontal',
-    description: '"Excuse me, miss, could you tell me where El Cajón del Azul is?"',
+    description: '"Excuse me miss, could you tell me where El Cajón del Azul is?"',
     date: new Date(Date.UTC(2023, 0, 12)),
     location: Locations.Argentina.ElBolson
   },
@@ -929,7 +928,7 @@ export const photoData: Photo[] = [
     fileName: 'mendoza-duna-love.jpg',
     src: `${baseUrl}/travels/south-america/argentina/mendoza-2015/472103612_10162969501846019_8225677459689060081_n.jpg`,
     orientation: 'horizontal',
-    description: '"They look really nice together. I like that couple"',
+    description: '"They look really nice together, I like that couple"',
     date: new Date(Date.UTC(2015, 0, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.Potrerillos
@@ -1001,7 +1000,7 @@ export const photoData: Photo[] = [
     fileName: 'purmamarca-2022-tree.jpg',
     src: `${baseUrl}/travels/south-america/argentina/purmamarca-2022/IMG_20220305_134101738_HDR.jpg`,
     orientation: 'horizontal',
-    description: 'It was about an hour and a half north of Purmamarca. Let me know if you know it',
+    description: 'It was about an hour and a half north of Purmamarca. Do you know it?',
     date: new Date(Date.UTC(2022, 2, 5)),
     location: Locations.Argentina.Purmamarca
   },
@@ -1142,7 +1141,7 @@ export const photoData: Photo[] = [
     fileName: 'cottage-sur-2014.jpg',
     src: `${baseUrl}/travels/south-america/argentina/viaje-al-sur-2014/466412290_10235487701039987_4331649296590245355_n.jpg`,
     orientation: 'horizontal',
-    description: '"I set up the camera. Everyone, gather for the photo! Uh... do something!"',
+    description: '"I set up the camera. Everyone, gather for the photo! Um... do something!"',
     date: new Date(Date.UTC(2014, 0, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.VillaLaAngostura
@@ -1290,7 +1289,7 @@ export const photoData: Photo[] = [
     fileName: 'chachi-salta-ride-noa-2018.jpg',
     src: `${baseUrl}/travels/south-america/argentina-bolivia-2018/IMG_20180201_185226733.jpg`,
     orientation: 'horizontal',
-    description: 'A father and son gave me a ride from Cachi to Salta City. I was very grateful to them',
+    description: 'A father and son gave me a ride from Cachi to Salta City, and I was very grateful to them',
     date: new Date(Date.UTC(2018, 1, 1)),
     location: Locations.Argentina.Salta
   },
@@ -1568,7 +1567,7 @@ export const photoData: Photo[] = [
     fileName: 'mj-gonzalez-hotel-2012.jpg',
     src: `${baseUrl}/university/mj/462846690_9664836953545869_6228514025460918034_n.jpg`,
     orientation: 'horizontal',
-    description: 'MJ team at Gonzalez Hotel. First releases',
+    description: 'MJ team at Gonzalez Hotel, first releases',
     date: new Date(Date.UTC(2012, 9, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.Rosario
@@ -1582,7 +1581,7 @@ export const photoData: Photo[] = [
     location: Locations.Argentina.Rosario
   },
   {
-    fileName: 'the-dude-array-2012.jpg',
+    fileName: 'the-dudes-array-2012.jpg',
     src: `${baseUrl}/university/mj/465009758_10235424928620815_6700930370204558740_n.jpg`,
     orientation: 'vertical',
     description: 'I\'m in fourth position',
@@ -1633,7 +1632,7 @@ export const photoData: Photo[] = [
     fileName: 'random-time-travel-moment.jpg',
     src: `${baseUrl}/university/mj/465580513_10236413778271535_8255287327576885763_n.jpg`,
     orientation: 'horizontal',
-    description: '"I\'m telling you. This guy built a random website and he looks just like you"',
+    description: '"I\'m telling you. This guy built a random website and he looks just like you!"',
     date: new Date(Date.UTC(2013, 11, 1)),
     dateComposedBy: DateParts.MonthYear,
     location: Locations.Argentina.Rosario
