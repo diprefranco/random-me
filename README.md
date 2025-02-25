@@ -4,7 +4,7 @@ Random Me is a fun, interactive single-page web application that displays a rand
 ## Demo
 https://diprefranco.github.io/random-me/
 
-![Website Screenshot](https://github.com/diprefranco/random-me/blob/main/public/assets/images/website-screenshot.jpg)
+![Website Screenshot](https://github.com/diprefranco/random-me/blob/main-v2.0/public/assets/images/website-screenshot.jpg)
 
 ## App Overview
 The app was built using [Angular](https://angular.dev/).<br />
@@ -36,21 +36,21 @@ npm start
 ```
 
 ### Photos
-The app randomly selects photos from the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array. This array contains all the information about the photos you want to display.<br />
-- Place your photo files in the [`public`](https://github.com/diprefranco/random-me/tree/main/public) folder inside the app or host them on any public URL.
-- Ensure the `src` property in the [`photoData`](https://github.com/diprefranco/random-me/blob/main/src/app/data/photo.data.ts) array points to the correct file location.
+The app randomly selects photos from the [`photoData`](https://github.com/diprefranco/random-me/blob/main-v2.0/src/app/data/photo.data.ts) array. This array contains all the information about the photos you want to display.<br />
+- Place your photo files in the [`public`](https://github.com/diprefranco/random-me/tree/main-v2.0/public) folder inside the app or host them on any public URL.
+- Ensure the `src` property in the [`photoData`](https://github.com/diprefranco/random-me/blob/main-v2.0/src/app/data/photo.data.ts) array points to the correct file location.
 - Dates are specified in `UTC` format to guarantee consistent display regardless of the user's time zone.
 - As a recommendation, to balance quality and performance for both desktop and mobile users, keep images below `500 KB` for fast loading. Use `JPG` format with a maximum width of `1200 px`.
 
 ### Sample Photos
 While developing, you can use sample photos instead of your own to simplify the process.<br />
-Simply change the `import` statement in the [`photo-data.service.ts`](https://github.com/diprefranco/random-me/blob/main/src/app/services/photo-data.service.ts) file to import the `photoData` array from [`sample-photo.data.ts`](https://github.com/diprefranco/random-me/blob/main/src/app/data/sample-photo.data.ts) file.
+Simply change the `import` statement in the [`photo-data.service.ts`](https://github.com/diprefranco/random-me/blob/main-v2.0/src/app/services/photo-data.service.ts) file to import the `photoData` array from [`sample-photo.data.ts`](https://github.com/diprefranco/random-me/blob/main-v2.0/src/app/data/sample-photo.data.ts) file.
 
 ~~`import { photoData } from '../data/photo.data';`~~<br />
 `import { photoData } from '../data/sample-photo.data';`
 
 ### Personal Link Resources
-In the [`src/app/services`](https://github.com/diprefranco/random-me/tree/main/src/app/services) folder, you’ll find services for managing personal link resources. Replace these with your own links and details as needed.
+In the [`src/app/services`](https://github.com/diprefranco/random-me/tree/main-v2.0/src/app/services) folder, you’ll find services for managing personal link resources. Replace these with your own links and details as needed.
 
 ## Acknowledgments
 I want to thank the photographers for the amazing photos you are seeing.

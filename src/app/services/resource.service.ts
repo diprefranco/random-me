@@ -6,10 +6,10 @@ import { Injectable } from '@angular/core';
 export class ResourceService {
 
   getProjectUrl(): string {
-    return 'https://github.com/diprefranco/random-me';
+    return 'https://github.com/diprefranco/random-me/tree/main-v2.0';
   }
 
   getRandomRoutineUrl(): string {
-    return 'https://github.com/diprefranco/random-me/blob/main/src/app/services/photo.service.ts';
+    return 'https://github.com/diprefranco/random-me/blob/main-v2.0/src/app/services/photo.service.ts';
   }
 }

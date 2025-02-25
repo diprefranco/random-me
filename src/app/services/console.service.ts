@@ -24,7 +24,7 @@ export class ConsoleService {
                                                                                                                          
   ╔═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╗  
   ║                      The site code you're exploring might be minimized.                                           ║  
-  ║                      Check it out here: ${projectUrl}                                  ║  
+  ║                      Check it out here: ${projectUrl}                   ║  
   ║                                                                                                                   ║  
   ║                                                © ${currentYear} Franco Dipre                                                ║  
   ╚═══════════════════════════════════════════════════════════════════════════════════════════════════════════════════╝  
