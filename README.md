@@ -4,7 +4,7 @@ Random Me is a fun, interactive single-page web application that displays a rand
 ## Demo
 https://diprefranco.github.io/random-me/
 
-![Website Screenshot](https://github.com/diprefranco/random-me/blob/main-new-readme/public/assets/images/website-screenshot.jpg)
+![Website Screenshot](https://github.com/diprefranco/random-me/blob/main/public/assets/images/website-screenshot.jpg)
 
 ## App Overview
 The app was built using [Angular](https://angular.dev/).<br />
