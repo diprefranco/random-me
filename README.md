@@ -46,7 +46,7 @@ The app randomly selects photos from the [`photoData`](https://github.com/dipref
 While developing, you can use sample photos instead of your own to simplify the process.<br />
 Simply change the `import` statement in the [`photo-data.service.ts`](https://github.com/diprefranco/random-me/blob/main/src/app/services/photo-data.service.ts) file to import the `photoData` array from [`sample-photo.data.ts`](https://github.com/diprefranco/random-me/blob/main/src/app/data/sample-photo.data.ts) file.
 
-<del>`import { photoData } from '../data/photo.data';`</del><br />
+~~`import { photoData } from '../data/photo.data';`~~<br />
 `import { photoData } from '../data/sample-photo.data';`
 
 ### Personal Link Resources
